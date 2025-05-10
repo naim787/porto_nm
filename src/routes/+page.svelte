@@ -106,20 +106,21 @@ class:bg-white={!DarkMode}
   
       <div class="w-[20vw] h-[50vh] ">
         <div class="w-full flex justify-start items-center">
-          <h1 class="text-2xl font-bold p-5 rounded-xl shadow shadow-md  bg-gray-100 transform rotate-10"
+          <h1 class="text-2xl font-bold p-5 rounded-xl shadow-md  bg-gray-100 transform rotate-10"
           class:shadow-xl={DarkMode}
           class:shadow-gray-600={DarkMode}
           ><img src="https://static.cdnlogo.com/logos/l/38/leveldb.svg" alt="" class="w-15" /></h1>
         </div>
         <div class="w-full flex justify-end items-center">
-          <h1 class="text-2xl font-bold p-5 rounded-xl shadow shadow-md bg-gray-100 transform rotate-3"
+          <h1 class="text-2xl font-bold p-5 rounded-xl shadow-md bg-blue-500 transform rotate-3"
           class:shadow-xl={DarkMode}
           class:shadow-gray-600={DarkMode}
-          ><i class="fa-brands fa-golang text-6xl text-blue-500"></i>
+          >
+          <img src="https://go.dev/images/go-logo-white.svg" alt="golang" class="w-15">
           </h1>
         </div>
         <div class="w-full flex justify-start items-center">
-          <h1 class="text-2xl font-bold p-5 rounded-xl shadow shadow-md bg-gray-100 transform -rotate-10"
+          <h1 class="text-2xl font-bold p-5 rounded-xl shadow-md bg-gray-100 transform -rotate-10"
           class:shadow-xl={DarkMode}
           class:shadow-gray-600={DarkMode}
           ><img src="https://raw.githubusercontent.com/sveltejs/branding/2af7bc72f1bf5152dab89bee1ee2093b1be0824d/svelte-logo-cutout.svg" alt="" class="w-15"/>

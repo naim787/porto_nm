@@ -1,12 +1,15 @@
 <script>
 	import { onMount } from "svelte";
-	import gsap from "gsap";
-	import { ScrollTrigger } from "gsap/ScrollTrigger";
-	
   
-	gsap.registerPlugin(ScrollTrigger);
-  
-	onMount(() => {
+	onMount(async () => {
+		const gsapModule = await import("gsap");
+		const scrollTriggerModule = await import("gsap/ScrollTrigger");
+
+		const gsap = gsapModule.default;
+		const ScrollTrigger = scrollTriggerModule.default;
+
+		gsap.registerPlugin(ScrollTrigger);
+
 		// animasi scroll
 		gsap.fromTo(
 		  ".fade",
