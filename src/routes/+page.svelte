@@ -31,7 +31,7 @@
         </div>
     </div>
 
-    <div class=""></div>
+    <div class="w-full"></div>
     <!-- about -->
     <div class="w-full h-auto flex flex-row flex-wrap justify-evenly items-center gap-4">
       <!-- about -->
