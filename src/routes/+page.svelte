@@ -102,7 +102,7 @@
            <!-- web3 -->
            <img src="https://avatars.githubusercontent.com/u/7613128?s=200&v=4" alt="nodjs" class="w-12">
          </div>
-    </div>
+  </div>
 
 
     <!-- projects -->
