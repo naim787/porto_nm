@@ -60,6 +60,7 @@
            <img src="https://www.svgrepo.com/show/305719/apachekafka.svg" alt="nodjs" class="w-12">
            <!-- api routs -->
            <img src="https://pbs.twimg.com/profile_images/1562960963359293446/rGjvMLR1_400x400.jpg" alt="nodjs" class="w-12">
+           https://gin-gonic.com/_astro/gin.D6H2T_2v_ZD2G7l.webp
 
            <!-- db -->
            <img src="https://www.svgrepo.com/show/374094/sqlite.svg" alt="nodjs" class="w-12">
