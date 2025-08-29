@@ -107,7 +107,7 @@
 
   <!-- projects -->
   <div class="w-full h-[100vh]">
-    <div class="w-200 h-300 border-3 border-dashed border-gray-400 rounded-md"></div>
+    <div class="w-100 h-300 border-3 border-dashed border-gray-400 rounded-md"></div>
   </div>
 
 </div>
