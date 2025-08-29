@@ -46,11 +46,11 @@
          <div class="w-[90vw] h-20 border-4 border-dashed border-gray-400 rounded-xl bg-white flex justify-evenly items-center">
           <!-- mobile v port -->
           <div class="">
-            
+            <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="nodjs" class="w-12">
+            <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="nodjs" class="w-30">
+            <img src="https://bun.com/logo.svg" alt="nodjs" class="w-12">
+
           </div>
-           <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="nodjs" class="w-12">
-           <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="nodjs" class="w-30">
-           <img src="https://bun.com/logo.svg" alt="nodjs" class="w-12">
            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/452092/react.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="nodjs" class="w-12">
