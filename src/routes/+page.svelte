@@ -44,7 +44,7 @@
 
         <!-- skill -->
          <div class="w-100 h-auto border-2 border-dashed border-gray-400 rounded-xl bg-white flex justify-evenly items-center flex-wrap p-3 relative">
-          <h1 class="text-8xl absolute left-[40%] top-[-22%] transform origin-center rotate-180 mcpe-font">^</h1>
+          <h1 class="text-8xl absolute left-[40%] top-[-2%] transform origin-center rotate-180 mcpe-font">^</h1>
           <!-- mobile v port -->
            <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="nodjs" class="w-12">
            <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="nodjs" class="w-30">
