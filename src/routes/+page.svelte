@@ -58,11 +58,11 @@
            <img src="https://avatars.githubusercontent.com/u/119793569?s=200&v=4" alt="nodjs" class="w-12">
            <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" alt="nodjs" class="w-12 bg-black p-2 rounded-xl">
            <img src="https://www.svgrepo.com/show/305719/apachekafka.svg" alt="nodjs" class="w-12">
-           
+
+           <!-- db -->
            <img src="https://www.svgrepo.com/show/374094/sqlite.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/353995/leveldb.svg" alt="nodjs" class="w-12">
            
-           <!-- db -->
            https://www.svgrepo.com/show/303251/mysql-logo.svg
            https://www.svgrepo.com/show/373845/mongo.svg
            https://miro.medium.com/v2/resize:fit:470/format:webp/1*T1txuZBh1-Upx9c_po1bpA.png
