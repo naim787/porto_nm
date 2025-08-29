@@ -64,6 +64,7 @@
            https://www.svgrepo.com/show/353995/leveldb.svg
            https://www.svgrepo.com/show/303251/mysql-logo.svg
            https://www.svgrepo.com/show/373845/mongo.svg
+           https://miro.medium.com/v2/resize:fit:470/format:webp/1*T1txuZBh1-Upx9c_po1bpA.png
          </div>
     </div>
 
