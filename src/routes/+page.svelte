@@ -120,7 +120,7 @@
               Read more 
             </Button>
           </div>
-        </Card
+        </Card>
     </div>
   </div>
 
