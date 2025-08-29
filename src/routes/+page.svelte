@@ -55,7 +55,7 @@
            <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="nodjs" class="w-12">
            <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="nodjs" class="w-30">
            <img src="https://bun.com/logo.svg" alt="nodjs" class="w-12">
-            <div class="w-full">
+          <div class="w-full">
             <h1 class="">Language & Runtime</h1>
           </div>
            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="nodjs" class="w-12">
