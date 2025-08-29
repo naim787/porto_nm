@@ -85,7 +85,6 @@
            <div class="w-full">
              <h1 class="">database</h1>
            </div>
-
            <!-- db -->
            <img src="https://www.svgrepo.com/show/374094/sqlite.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/353995/leveldb.svg" alt="nodjs" class="w-12">
