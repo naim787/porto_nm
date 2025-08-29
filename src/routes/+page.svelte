@@ -61,6 +61,7 @@
            https://www.svgrepo.com/show/353995/leveldb.svg
 
            <!-- db -->
+            https://www.svgrepo.com/show/374094/sqlite.svg
          </div>
     </div>
 
