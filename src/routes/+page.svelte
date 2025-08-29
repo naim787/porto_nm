@@ -53,7 +53,7 @@
            <img src="https://www.svgrepo.com/show/354521/vitejs.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/303494/vue-9-logo.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/368866/nuxtjs.svg" alt="nodjs" class="w-12">
-           
+           https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png
            https://astro.build/assets/press/astro-icon-light-gradient.svg
 
          </div>
