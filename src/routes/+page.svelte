@@ -59,6 +59,8 @@
            <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" alt="nodjs" class="w-12 bg-black p-2 rounded-xl">
            https://www.svgrepo.com/show/305719/apachekafka.svg
            https://www.svgrepo.com/show/353995/leveldb.svg
+
+           
          </div>
     </div>
 
