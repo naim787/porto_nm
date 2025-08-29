@@ -115,7 +115,7 @@
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
             <p class="mb-3 leading-tight font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
             <div class="w-full h-20">
-              <h1 class="font-sans font-bold text-3xl text-blue-900 bg-blue-500 p-2">GO</h1>
+              <div class="font-sans font-bold text-3xl text-blue-900 bg-blue-500 p-2">GO</h1>
             </div>
           </div>
         </Card>
