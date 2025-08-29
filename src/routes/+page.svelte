@@ -43,7 +43,7 @@
         </div>
 
         <!-- skill -->
-         <div class="w-100 h-auto border-2 border-dashed border-gray-400 rounded-xl bg-white flex justify-evenly items-center flex-wrap">
+         <div class="w-100 h-auto border-2 border-dashed border-gray-400 rounded-xl bg-white flex justify-evenly items-center flex-wrap p-2">
           <!-- mobile v port -->
            <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="nodjs" class="w-12">
            <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="nodjs" class="w-30">
