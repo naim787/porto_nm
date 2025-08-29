@@ -1,0 +1,500 @@
+<script lang="ts">
+  import { onMount } from "svelte";
+  import { tweened } from "svelte/motion";
+  import { quintOut } from "svelte/easing";
+  import { fly, fade } from "svelte/transition";
+
+  // Svelte-friendly icons (using lucide-svelte)
+  import {
+    Menu, X, Code, Github, Linkedin, Twitter, ArrowRight, Download, Mail,
+    Wand2, Copy, Loader2, Brush, Server, ExternalLink
+  } from "@lucide/svelte";
+
+  // Form validation (using a Svelte-friendly library or vanilla)
+  import { superForm } from "sveltekit-superforms/client";
+  import { z } from "zod";
+
+  // Mock server action
+  async function generatePersonalizedMessageAction(input) {
+    console.log("Generating message with input:", input);
+    await new Promise(resolve => setTimeout(resolve, 1500));
+    if (input.userName && input.recipientName && input.userSkills && input.recipientNeeds) {
+      return {
+        success: true,
+        data: {
+          personalizedMessage: `Dear ${input.recipientName},\n\nMy name is ${input.userName}, and I came across your need for a developer. With my experience in ${input.userSkills}, I believe I can be a great asset to your team. I am particularly impressed by your company's work and my skills align with your requirements for ${input.recipientNeeds}.\n\nYou can view my portfolio here: ${input.userPortfolioLink}\n\nThank you for your time and consideration.\n\nBest regards,\n${input.userName}`,
+        },
+      };
+    } else {
+      return {
+        success: false,
+        error: "An unexpected error occurred during message generation.",
+      };
+    }
+  }
+
+  // Reactive state
+  let isScrolled = false;
+  let isMobileMenuOpen = false;
+  let currentYear;
+  let generatedMessage = "";
+  let isLoading = false;
+
+  const aiFormSchema = z.object({
+    userName: z.string().min(2, "Your name must be at least 2 characters."),
+    recipientName: z.string().min(2, "Recipient's name must be at least 2 characters."),
+    userSkills: z.string().min(20, "Please provide more details about your skills (at least 20 characters)."),
+    recipientNeeds: z.string().min(20, "Please provide more details about their needs (at least 20 characters)."),
+    userPortfolioLink: z.string().url("Please enter a valid URL for your portfolio."),
+  });
+
+  const form = superForm(
+    {
+      userName: "",
+      recipientName: "",
+      userSkills: "Experienced in React, Next.js, and building modern UIs with Tailwind CSS. Specialized in creating responsive and performant web applications.",
+      recipientNeeds: "Looking for a frontend developer to help build a new marketing website.",
+      userPortfolioLink: "https://example.com",
+    },
+    {
+      validators: aiFormSchema,
+    }
+  );
+
+  const { form: formData, enhance } = form;
+
+  // Lifecycle hook for side effects
+  onMount(() => {
+    currentYear = new Date().getFullYear();
+    const handleScroll = () => {
+      isScrolled = window.scrollY > 10;
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+
+  // Function to handle form submission
+  async function onSubmit() {
+    isLoading = true;
+    generatedMessage = "";
+
+    const result = await generatePersonalizedMessageAction($formData);
+
+    isLoading = false;
+
+    if (result.success && result.data?.personalizedMessage) {
+      generatedMessage = result.data.personalizedMessage;
+      // Svelte-friendly toast/notification
+      alert("Message Generated!");
+    } else {
+      alert("Uh oh! Something went wrong.");
+    }
+  }
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(generatedMessage).then(() => {
+      alert("Copied to clipboard!");
+    });
+  };
+
+  // Data
+  const navItems = [
+    { name: "About", href: "#about" },
+    { name: "Skills", href: "#skills" },
+    { name: "Projects", href: "#projects" },
+    { name: "Contact", href: "#contact" },
+  ];
+
+  const skills = [
+    { name: "React & Next.js", level: tweened(0, { duration: 1000, easing: quintOut }), target: 95, icon: Code },
+    { name: "TypeScript", level: tweened(0, { duration: 1000, easing: quintOut }), target: 90, icon: Code },
+    { name: "Tailwind CSS", level: tweened(0, { duration: 1000, easing: quintOut }), target: 98, icon: Code },
+    { name: "Node.js & Express", level: tweened(0, { duration: 1000, easing: quintOut }), target: 80, icon: Server },
+    { name: "Databases (SQL & NoSQL)", level: tweened(0, { duration: 1000, easing: quintOut }), target: 85, icon: Server },
+    { name: "UI/UX Design (Figma)", level: tweened(0, { duration: 1000, easing: quintOut }), target: 92, icon: Brush },
+  ];
+
+  const projects = [
+    {
+      title: "E-commerce Platform",
+      description: "A full-featured e-commerce site with product listings, cart, and checkout, built with Next.js and Stripe.",
+      image: "https://picsum.photos/600/400?q=1",
+      tags: ["Next.js", "React", "Stripe", "Tailwind"],
+      liveUrl: "#",
+      githubUrl: "#",
+      aiHint: "online store",
+    },
+    {
+      title: "SaaS Dashboard",
+      description: "A responsive dashboard for a SaaS application, including charts, data tables, and user management.",
+      image: "https://picsum.photos/600/400?q=2",
+      tags: ["React", "Vite", "Recharts", "Shadcn/ui"],
+      liveUrl: "#",
+      githubUrl: "#",
+      aiHint: "dashboard analytics",
+    },
+    {
+      title: "This Portfolio Website",
+      description: "A single-page application to showcase my work and skills, with AI-powered features for generating contact messages.",
+      image: "https://picsum.photos/600/400?q=3",
+      tags: ["Next.js", "GenAI", "Tailwind", "Framer Motion"],
+      liveUrl: "#",
+      githubUrl: "#",
+      aiHint: "portfolio website",
+    },
+  ];
+</script>
+
+<div class="flex flex-col min-h-dvh bg-background">
+  <header
+    class={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/80 shadow-md backdrop-blur-sm" : "bg-transparent"}`}
+  >
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="#home" class="flex items-center gap-2 text-xl font-bold text-primary">
+          <Code class="w-7 h-7" />
+          <span class="font-headline">FolioFlow</span>
+        </a>
+
+        <nav class="hidden md:flex items-center space-x-6">
+          {#each navItems as item (item.name)}
+            <a href={item.href} class="text-sm font-medium text-foreground/80 hover:text-primary transition-colors">
+              {item.name}
+            </a>
+          {/each}
+        </nav>
+
+        <div class="md:hidden">
+          <button on:click={() => (isMobileMenuOpen = true)} class="p-2 -mr-2 text-foreground hover:text-primary">
+            <Menu class="h-6 w-6" />
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {#if isMobileMenuOpen}
+    <div
+      class="fixed inset-0 z-[100] bg-black/50 backdrop-blur-sm"
+      transition:fade={{ duration: 150 }}
+      on:click={() => (isMobileMenuOpen = false)}
+    ></div>
+    <div
+      class="fixed top-0 right-0 h-full w-full max-w-xs bg-background p-4 shadow-lg z-[101]"
+      transition:fly={{ x: 300, duration: 250 }}
+    >
+      <div class="flex flex-col h-full">
+        <div class="flex items-center justify-between mb-8">
+          <a href="#home" class="flex items-center gap-2 text-xl font-bold text-primary" on:click={() => (isMobileMenuOpen = false)}>
+            <Code class="w-7 h-7" />
+            <span class="font-headline">FolioFlow</span>
+          </a>
+          <button on:click={() => (isMobileMenuOpen = false)} class="p-2 -mr-2 text-foreground hover:text-primary">
+            <X class="h-6 w-6" />
+          </button>
+        </div>
+        <nav class="flex flex-col space-y-4">
+          {#each navItems as item (item.name)}
+            <a
+              href={item.href}
+              class="text-lg font-medium text-foreground/80 hover:text-primary transition-colors"
+              on:click={() => (isMobileMenuOpen = false)}
+            >
+              {item.name}
+            </a>
+          {/each}
+        </nav>
+      </div>
+    </div>
+  {/if}
+
+  <main class="flex-1">
+    <section id="home" class="relative bg-background w-full pt-24 md:pt-32 pb-16 md:pb-24">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div class="space-y-6 text-center md:text-left">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-foreground font-headline">
+              Creative Developer & UI/UX Designer
+            </h1>
+            <p class="max-w-xl mx-auto md:mx-0 text-lg text-muted-foreground">
+              I specialize in building exceptional, high-quality websites and applications. Based in the digital world, I bring ideas to life with code and design.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+              <a href="#projects" class="inline-flex items-center justify-center rounded-md text-sm font-medium h-11 px-8 bg-primary text-primary-foreground hover:bg-primary/90">
+                View My Work <ArrowRight class="ml-2 h-5 w-5" />
+              </a>
+              <a href="#contact" class="inline-flex items-center justify-center rounded-md text-sm font-medium h-11 px-8 border border-input bg-background hover:bg-accent hover:text-accent-foreground">
+                Contact Me
+              </a>
+            </div>
+          </div>
+          <div class="relative w-full max-w-md mx-auto md:max-w-none">
+            <div class="aspect-square relative rounded-full overflow-hidden border-8 border-primary/10 shadow-2xl">
+              <img src="https://picsum.photos/800/800" alt="John Doe" class="object-cover w-full h-full" />
+            </div>
+            <div class="absolute -bottom-4 -left-4 w-24 h-24 bg-accent rounded-full opacity-50 -z-10 animate-pulse"></div>
+            <div class="absolute -top-4 -right-4 w-32 h-32 bg-primary rounded-full opacity-30 -z-10 animate-pulse delay-75"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="w-full bg-secondary py-16 md:py-24">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="relative w-full max-w-md mx-auto">
+            <img
+              src="https://picsum.photos/600/700"
+              alt="About me"
+              width={600}
+              height={700}
+              class="rounded-xl shadow-lg rotate-[-3deg] transform transition-transform duration-300 hover:rotate-0 hover:scale-105"
+            />
+          </div>
+          <div class="space-y-4">
+            <h2 class="text-3xl md:text-4xl font-bold font-headline text-primary">About Me</h2>
+            <p class="text-lg text-muted-foreground">
+              Hello! I'm a passionate self-taught developer and designer with a love for creating beautiful, intuitive, and functional user experiences. I thrive on turning complex problems into simple, elegant solutions.
+            </p>
+            <p class="text-muted-foreground">
+              With a background in both front-end and back-end development, I enjoy bringing ideas to life from concept to deployment. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good cup of coffee.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="w-full py-16 md:py-24">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center space-y-4 mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold font-headline text-primary">My Technical Skills</h2>
+          <p class="max-w-2xl mx-auto text-muted-foreground">
+            A showcase of my proficiency in various technologies and design tools.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {#each skills as skill (skill.name)}
+            <div class="bg-card p-6 rounded-lg shadow-sm transition-transform duration-300 hover:-translate-y-2 border">
+              <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center gap-3">
+                  <svelte:component this={skill.icon} class="w-6 h-6 text-primary" />
+                  <h3 class="font-semibold text-lg text-card-foreground">{skill.name}</h3>
+                </div>
+                <span class="text-sm font-bold text-primary">{skill.target}%</span>
+              </div>
+              <progress class="w-full h-2 rounded-full" value={skill.target} max="100"></progress>
+            </div>
+          {/each}
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="w-full bg-secondary py-16 md:py-24">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center space-y-4 mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold font-headline text-primary">Featured Projects</h2>
+          <p class="max-w-2xl mx-auto text-muted-foreground">
+            Here are some of the projects I'm proud to have worked on.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {#each projects as project (project.title)}
+            <div class="overflow-hidden flex flex-col transition-transform duration-300 hover:scale-105 hover:shadow-xl bg-card border rounded-lg">
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-foreground">{project.title}</h3>
+                <p class="mt-2 text-sm text-muted-foreground">{project.description}</p>
+              </div>
+              <div class="flex-grow flex flex-col p-6 pt-0">
+                <div class="relative aspect-video">
+                  <img src={project.image} alt={project.title} class="object-cover rounded-md w-full h-full" />
+                </div>
+                <div class="flex flex-wrap gap-2 mt-4">
+                  {#each project.tags as tag (tag)}
+                    <span class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80">
+                      {tag}
+                    </span>
+                  {/each}
+                </div>
+              </div>
+              <div class="p-6 border-t flex justify-start gap-4">
+                <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-md text-sm font-medium h-10 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90">
+                  <ExternalLink class="mr-2 h-4 w-4" /> Live Demo
+                </a>
+                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center rounded-md text-sm font-medium h-10 px-4 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground">
+                  <Github class="mr-2 h-4 w-4" /> Source
+                </a>
+              </div>
+            </div>
+          {/each}
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="w-full py-16 md:py-24">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center space-y-4 mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold font-headline text-primary">Get In Touch</h2>
+          <p class="max-w-2xl mx-auto text-muted-foreground">
+            Have a project in mind or just want to say hi? Feel free to reach out. Or, use the AI assistant to craft the perfect opening message!
+          </p>
+        </div>
+
+        <div class="grid lg:grid-cols-5 gap-12">
+          <div class="lg:col-span-2 space-y-8 mt-4">
+            <div>
+              <h3 class="text-xl font-semibold mb-4 text-foreground">Contact Information</h3>
+              <div class="space-y-4">
+                <div class="flex items-center gap-4">
+                  <Mail class="w-6 h-6 text-primary" />
+                  <a href="mailto:hello@folioflow.com" class="text-muted-foreground hover:text-primary transition-colors">hello@folioflow.com</a>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold mb-4 text-foreground">Follow Me</h3>
+              <div class="flex space-x-4">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors"><Github class="w-7 h-7" /></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors"><Linkedin class="w-7 h-7" /></a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors"><Twitter class="w-7 h-7" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-3">
+            <div class="w-full shadow-lg border rounded-lg">
+              <div class="p-6">
+                <h3 class="text-2xl font-bold flex items-center gap-2">
+                  <Wand2 class="w-6 h-6 text-primary" />
+                  AI Message Generator
+                </h3>
+                <p class="text-sm text-muted-foreground mt-2">
+                  Fill in the details below and let AI craft a personalized outreach message for you.
+                </p>
+              </div>
+              <div class="p-6 pt-0">
+                <form on:submit|preventDefault={onSubmit} use:enhance class="space-y-4">
+                  <div class="grid sm:grid-cols-2 gap-4">
+                    <label class="block">
+                      <span class="text-sm font-medium">Your Name</span>
+                      <input
+                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 mt-1"
+                        placeholder="John Doe"
+                        bind:value={$formData.userName}
+                        required
+                      />
+                      {#if $form.errors.userName}
+                        <p class="text-sm font-medium text-destructive mt-1">{$form.errors.userName}</p>
+                      {/if}
+                    </label>
+                    <label class="block">
+                      <span class="text-sm font-medium">Recipient's Name</span>
+                      <input
+                        class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 mt-1"
+                        placeholder="Jane Smith"
+                        bind:value={$formData.recipientName}
+                        required
+                      />
+                      {#if $form.errors.recipientName}
+                        <p class="text-sm font-medium text-destructive mt-1">{$form.errors.recipientName}</p>
+                      {/if}
+                    </label>
+                  </div>
+                  <label class="block">
+                    <span class="text-sm font-medium">Your Skills & Experience</span>
+                    <textarea
+                      class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 mt-1"
+                      placeholder="e.g., Proficient in React, Next.js..."
+                      bind:value={$formData.userSkills}
+                      rows={3}
+                      required
+                    ></textarea>
+                    {#if $form.errors.userSkills}
+                      <p class="text-sm font-medium text-destructive mt-1">{$form.errors.userSkills}</p>
+                    {/if}
+                  </label>
+                  <label class="block">
+                    <span class="text-sm font-medium">Recipient's Needs / Job Description</span>
+                    <textarea
+                      class="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 mt-1"
+                      placeholder="e.g., Looking for a frontend developer..."
+                      bind:value={$formData.recipientNeeds}
+                      rows={3}
+                      required
+                    ></textarea>
+                    {#if $form.errors.recipientNeeds}
+                      <p class="text-sm font-medium text-destructive mt-1">{$form.errors.recipientNeeds}</p>
+                    {/if}
+                  </label>
+                  <label class="block">
+                    <span class="text-sm font-medium">Your Portfolio Link</span>
+                    <input
+                      type="url"
+                      class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 mt-1"
+                      placeholder="https://your-portfolio.com"
+                      bind:value={$formData.userPortfolioLink}
+                      required
+                    />
+                    {#if $form.errors.userPortfolioLink}
+                      <p class="text-sm font-medium text-destructive mt-1">{$form.errors.userPortfolioLink}</p>
+                      {/if}
+                  </label>
+                  <button type="submit" disabled={isLoading} class="inline-flex items-center justify-center rounded-md text-sm font-medium h-10 px-4 py-2 bg-primary text-primary-foreground hover:bg-primary/90 w-full">
+                    {#if isLoading}
+                      <Loader2 class="mr-2 h-4 w-4 animate-spin" />
+                      Generating...
+                    {:else}
+                      <Wand2 class="mr-2 h-4 w-4" />
+                      Generate Message
+                    {/if}
+                  </button>
+                </form>
+              </div>
+              {#if generatedMessage}
+                <div class="flex flex-col items-start gap-4 border-t pt-6 p-6">
+                  <h3 class="font-semibold text-foreground">Generated Message:</h3>
+                  <div class="w-full p-4 bg-muted/50 rounded-md border text-sm text-muted-foreground relative">
+                    <p class="whitespace-pre-wrap">{generatedMessage}</p>
+                    <button
+                      class="absolute top-2 right-2 p-2 rounded-full text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+                      on:click={copyToClipboard}
+                    >
+                      <Copy class="h-4 w-4" />
+                      <span class="sr-only">Copy message</span>
+                    </button>
+                  </div>
+                </div>
+              {/if}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-background border-t">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div class="flex items-center gap-2 text-lg font-bold text-primary">
+          <Code class="w-6 h-6" />
+          <span class="font-headline">FolioFlow</span>
+        </div>
+        <p class="text-sm text-muted-foreground">
+          &copy; {currentYear} FolioFlow. All Rights Reserved.
+        </p>
+        <div class="flex items-center space-x-4">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors">
+            <Github class="h-5 w-5" />
+            <span class="sr-only">GitHub</span>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors">
+            <Linkedin class="h-5 w-5" />
+            <span class="sr-only">LinkedIn</span>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="text-muted-foreground hover:text-primary transition-colors">
+            <Twitter class="h-5 w-5" />
+            <span class="sr-only">Twitter</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
