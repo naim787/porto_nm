@@ -61,7 +61,7 @@
            <!-- api routs -->
            <img src="https://pbs.twimg.com/profile_images/1562960963359293446/rGjvMLR1_400x400.jpg" alt="nodjs" class="w-12">
            <img src="https://gin-gonic.com/_astro/gin.D6H2T_2v_ZD2G7l.webp" alt="nodjs" class="w-12">
-           <img src="https://gin-gonic.com/_astro/gin.D6H2T_2v_ZD2G7l.webp" alt="nodjs" class="w-12">
+           <img src="" alt="nodjs" class="w-12">
            
            <!-- unitest api -->
            <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/K6_software_logo.svg" alt="nodjs" class="w-12">
