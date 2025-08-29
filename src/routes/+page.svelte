@@ -95,7 +95,7 @@
            <div class="w-full">
              <h1 class="">oprasig system</h1>
            </div>
-           <img src="https://miro.medium.com/v2/resize:fit:470/format:webp/1*T1txuZBh1-Upx9c_po1bpA.png" alt="nodjs" class="w-15">
+           <img src="h alt="nodjs" class="w-15">
            
            <div class="w-full">
              <h1 class="">dapp web3</h1>
