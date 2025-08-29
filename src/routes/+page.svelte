@@ -32,7 +32,7 @@
     </div>
 
     <!-- about -->
-    <div class="w-full h-[100vh] flex flex-col items-center">
+    <div class="w-full h-[100vh] flex flex-col items-center gap02">
       <!-- about -->
         <div class="w-80 h-100 bg-white rounded-xl border-4 border-dashed border-gray-400 relative p-2">
           <h1 class="text-8xl absolute left-[40%] top-[-22%] transform origin-center rotate-180 mcpe-font">^</h1>
