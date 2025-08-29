@@ -107,7 +107,7 @@
          </div>
   </div>
 
-  <div class="w-full px-4">
+  <div class="w-full p-4">
       <h1 class="text-6xl">projects</h1>
   </div>
   <!-- projects -->
