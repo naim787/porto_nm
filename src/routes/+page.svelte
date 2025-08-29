@@ -109,7 +109,7 @@
 
   <div class="w-full">
       <h1 class="text-6xl">ABOUT</h1>
-    </div>
+  </div>
   <!-- projects -->
   <div class="w-full h-[100vh] flex justify-evenly mt-20 flex-wrap">
         <Card img="./bakar-r-h.png" class="h-100 bg-white">
