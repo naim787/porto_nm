@@ -52,6 +52,7 @@
            <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/354521/vitejs.svg" alt="nodjs" class="w-12">
            
+
          </div>
     </div>
 
