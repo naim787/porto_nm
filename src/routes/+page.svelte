@@ -60,7 +60,7 @@
            https://www.svgrepo.com/show/305719/apachekafka.svg
            https://www.svgrepo.com/show/353995/leveldb.svg
 
-           db
+           <!-- db -->
          </div>
     </div>
 
