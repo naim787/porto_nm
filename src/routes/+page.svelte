@@ -34,7 +34,7 @@
     <!-- about -->
     <div class="w-full h-[100vh] flex flex-col items-center">
         <div class="w-80 h-100 bg-white rounded-xl border border-dashed relative">
-          <h1 class="text-8xl absolute left-[50%] top-[-26%] transform origin-center rotate-180">^</h1>
+          <h1 class="text-8xl absolute left-[5%] top-[-26%] transform origin-center rotate-180">^</h1>
         </div>
     </div>
 
