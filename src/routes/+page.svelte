@@ -58,10 +58,10 @@
            <img src="https://avatars.githubusercontent.com/u/119793569?s=200&v=4" alt="nodjs" class="w-12">
            <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" alt="nodjs" class="w-12 bg-black p-2 rounded-xl">
            https://www.svgrepo.com/show/305719/apachekafka.svg
-           https://www.svgrepo.com/show/353995/leveldb.svg
-
+           
            <!-- db -->
-            https://www.svgrepo.com/show/374094/sqlite.svg
+           https://www.svgrepo.com/show/374094/sqlite.svg
+           https://www.svgrepo.com/show/353995/leveldb.svg
          </div>
     </div>
 
