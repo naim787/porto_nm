@@ -43,7 +43,7 @@
         </div>
 
         <!-- skill -->
-         <div class="w-115 h-auto border-4 border-dashed border-gray-400 rounded-xl bg-white flex justify-evenly items-center flex-wrap p-3 relative">
+         <div class="w-115 h-auto border-4 border-dashed border-gray-400 rounded-xl flex justify-evenly items-center flex-wrap p-3 relative">
           <h1 class="text-8xl absolute left-[40%] top-[-26%] transform origin-center rotate-180 mcpe-font">^</h1>
           <!-- mobile v port -->
            <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="nodjs" class="w-12">
