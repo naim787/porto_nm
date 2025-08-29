@@ -31,7 +31,7 @@
         </div>
     </div>
 
-    <div class="w-full px-">
+    <div class="w-full px-4">
       <h1 class="text-6xl">ABOUT</h1>
     </div>
     <!-- about -->
