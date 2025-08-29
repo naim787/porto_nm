@@ -69,7 +69,7 @@
            </div>
           <!-- api routs -->
            <h1 class="font-sans font-bold text-5xl m-2">EX</h1>
-           <img src="https://pbs.twimg.com/profile_images/1562960963359293446/rGjvMLR1_400x400.jpg" alt="nodjs" class="w-12">
+            <img src="https://pbs.twimg.com/profile_images/1562960963359293446/rGjvMLR1_400x400.jpg" alt="nodjs" class="w-12">
            <img src="https://gin-gonic.com/_astro/gin.D6H2T_2v_ZD2G7l.webp" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/368866/nuxtjs.svg" alt="nodjs" class="w-12">
            <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png" alt="fiber" class="w-25">
