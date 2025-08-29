@@ -116,7 +116,7 @@
             <p class="mb-3 leading-tight font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
             <div class="w-full h-20">
               <span class="font-sans font-bold text-3xl text-blue-500 text-center">GO</span>
-              <span class="font-sans font-bold text-3xl text-blue-500 text-center">GO</span>
+              <span class="font-sans font-bold text-3xl text-blue-500 text-center"></span>
             </div>
           </div>
         </Card>
