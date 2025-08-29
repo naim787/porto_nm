@@ -43,7 +43,7 @@
         </div>
 
         <!-- skill -->
-         <div class="w-[90] h-53 border-dashed border-gray-400"></div>
+         <div class="w-[90vw] h-53 border-dashed border-gray-400"></div>
     </div>
 
 </div>
