@@ -60,7 +60,7 @@
            <img src="https://www.svgrepo.com/show/305719/apachekafka.svg" alt="nodjs" class="w-12">
            <!-- api routs -->
            <img src="https://pbs.twimg.com/profile_images/1562960963359293446/rGjvMLR1_400x400.jpg" alt="nodjs" class="w-12">
-           <img src="https://gin-gonic.com/_astro/gin.D6H2T_2v_ZD2G7l.webp" alhttps://avatars.githubusercontent.com/u/28507035?s=48&v=4t="nodjs" class="w-12">
+           <img src="" alhttps://avatars.githubusercontent.com/u/28507035?s=48&v=4t="nodjs" class="w-12">
            
            <!-- unitest api -->
            <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/K6_software_logo.svg" alt="nodjs" class="w-12">
