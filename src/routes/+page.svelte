@@ -15,7 +15,7 @@
 </Navbar>
 
 
-<div class="w-[100vw] h-auto flex flex-col justify-center items-center bg-[radial-gradient(#BDBDBD_1px,transparent_0)] [background-size:30px_30px] overflow-x-hidden ">
+<div class="w-[100vw] h-auto flex flex-col justify-center items-center bg-[radial-gradient(#BDBDBD_1px,transparent_0)] [background-size:30px_30px] overflow-x-hidden mcpe">
 
     <!-- main -->
     <div class="w-[90vw] h-[100vh] flex justify-center items-center">
