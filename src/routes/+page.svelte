@@ -43,7 +43,7 @@
         </div>
 
         <!-- skill -->
-         <div class="w-[90vw] h-20 border-4 border-dashed border-gray-400 rounded-xl bg-white flex justify-evenly item">
+         <div class="w-[90vw] h-20 border-4 border-dashed border-gray-400 rounded-xl bg-white flex justify-evenly items-center">
 
          </div>
     </div>
