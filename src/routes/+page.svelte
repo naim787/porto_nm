@@ -38,7 +38,6 @@
           <h1 class="text-4xl">About </h1>
           <div class="">
             <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deleniti asperiores consequuntur explicabo accusantium velit perspiciatis. Ut pariatur omnis similique repellat sit iste, corrupti minus! Ipsam asperiores quis, in neque ea obcaecati maxime nulla officiis optio atque eius quibusdam quisquam velit facilis impedit cupiditate provident! Voluptas eaque iure quod deserunt velit fugiat illo ea reiciendis doloremque culpa ex ullam amet, et reprehenderit quis blanditiis veritatis deleniti laboriosam fugit vitae. Inventore iste, temporibus id omnis facilis rem blanditiis modi fugiat ut corporis. Suscipit incidunt dolorum earum neque qui libero, eveniet eum ducimus a optio adipisci cupiditate, dolor asperiores est rem nihil!</p>
-
           </div>
         </div>
     </div>
