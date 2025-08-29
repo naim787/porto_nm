@@ -107,7 +107,7 @@
 
   <!-- projects -->
   <div class="w-full h-[100vh] flex justify-evenly mt-20">
-    <div class="w-110 h-105 border-3 border-dashed border-gray-400 rounded-xl bg-"></div>
+    <div class="w-110 h-105 border-3 border-dashed border-gray-400 rounded-xl bg-white"></div>
   </div>
 
 </div>
