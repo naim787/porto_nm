@@ -38,9 +38,7 @@
           <h1 class="text-8xl absolute left-[40%] top-[-22%] transform origin-center rotate-180 mcpe-font">^</h1>
           <h1 class="text-4xl">ABOUT</h1>
           <div class="h-[90%] overflow-y-scroll font-sans">
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vero earum, expedita ullam tempore culpa, incidunt blanditiis odio consequuntur, magni perspiciatis tenetur alias! Excepturi beatae ullam doloribus deserunt quis delectus quas, quidem hic aspernatur deleniti! Corrupti, ex recusandae quam voluptate magni eos totam tempora dicta architecto rem, harum sed, ipsa at voluptatum consequatur asperiores! Harum dignissimos quisquam natus quis quibusdam possimus dolorum doloribus dolorem magni? Nemo sequi repudiandae porro itaque iure obcaecati ad facilis ratione? Officiis ipsam voluptates possimus exercitationem unde. Quidem autem repudiandae at natus magnam aut qui ratione fugiat ipsa quod placeat officia suscipit hic, porro in. Alias, nobis repellendus?
-              
-            </p>
+            <p class="">lorem-500</p>
           </div>
         </div>
 
