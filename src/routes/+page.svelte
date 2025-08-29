@@ -51,6 +51,7 @@
            <img src="https://www.svgrepo.com/show/452092/react.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/354521/vitejs.svg" alt="nodjs" class="w-12">
+           <img src="https://www.svgrepo.com/show/354521/vitejs.svg" alt="nodjs" class="w-12">
            https://www.svgrepo.com/show/303494/vue-9-logo.svg
 
          </div>
