@@ -106,6 +106,6 @@
 
 
     <!-- projects -->
-    <div class=""></div>
+    <div class="w-full"></div>
 
 </div>
