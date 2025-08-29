@@ -108,7 +108,7 @@
   </div>
 
   <div class="w-full p-4">
-      <h1 class="text-6xl">app</h1>
+      <h1 class="text-6xl">projects</h1>
   </div>
   <!-- projects -->
   <div class="w-full h-[100vh] flex justify-evenly mt-20 flex-wrap">
