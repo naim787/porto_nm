@@ -60,7 +60,7 @@
            <img src="https://www.svgrepo.com/show/305719/apachekafka.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/374094/sqlite.svg" alt="nodjs" class="w-12">
            
-           <!-- db -->
+           <!-- db --><img src="https://www.svgrepo.com/show/374094/sqlite.svg" alt="nodjs" class="w-12">
            https://www.svgrepo.com/show/353995/leveldb.svg
            https://www.svgrepo.com/show/303251/mysql-logo.svg
            https://www.svgrepo.com/show/373845/mongo.svg
