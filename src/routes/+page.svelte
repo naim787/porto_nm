@@ -108,8 +108,6 @@
     <!-- projects -->
     <div class="w-full h-auto">
       <div class=""></div>
-      <div class=""></div>
-      <div class=""></div>
     </div>
 
 </div>
