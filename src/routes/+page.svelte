@@ -66,7 +66,7 @@
            <img src="https://www.svgrepo.com/show/303251/mysql-logo.svg" alt="nodjs" class="w-20">
            <img src="https://www.svgrepo.com/show/373845/mongo.svg" alt="nodjs" class="w-20">
            <img src="https://miro.medium.com/v2/resize:fit:470/format:webp/1*T1txuZBh1-Upx9c_po1bpA.png" alt="nodjs" class="w-20">
-           <img src="" alt="nodjs" class="w-20">
+           <img src="https://avatars.githubusercontent.com/u/7613128?s=200&v=4" alt="nodjs" class="w-20">
 
 
            <!-- web3 -->
