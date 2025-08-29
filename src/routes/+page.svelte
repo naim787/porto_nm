@@ -43,7 +43,7 @@
         </div>
 
         <!-- skill -->
-         <div class="w-full h-53 boder"></div>
+         <div class="w-full h-53 border-dashed"></div>
     </div>
 
 </div>
