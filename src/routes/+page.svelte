@@ -31,6 +31,7 @@
         </div>
     </div>
 
+<Navbar class="fixed bg-white border border-b-1 border-gray-200
     <!-- about -->
     <div class="w-full h-[100vh] flex flex-col items-center">
         <div class="w-80 h-100 bg-white rounded-xl border-4 border-dashed border-gray-400 relative p-2">
