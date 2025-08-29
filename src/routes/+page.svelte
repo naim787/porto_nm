@@ -107,7 +107,7 @@
          </div>
   </div>
 
-  <div class="w-full">
+  <div class="w-full p-">
       <h1 class="text-6xl">ABOUT</h1>
   </div>
   <!-- projects -->
