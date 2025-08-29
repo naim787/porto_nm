@@ -55,7 +55,6 @@
            <img src="https://www.svgrepo.com/show/368866/nuxtjs.svg" alt="nodjs" class="w-12">
            <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png" alt="nodjs" class="w-12">
            <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png" alt="nodjs" class="w-12">
-           https://avatars.githubusercontent.com/u/119793569?s=200&v=4
            https://astro.build/assets/press/astro-icon-light-gradient.svg
 
          </div>
