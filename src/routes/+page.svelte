@@ -47,7 +47,8 @@
           <h1 class="text-8xl absolute left-[40%] top-[-23%] transform origin-center rotate-180 mcpe-font">^</h1>
           <div class="w-full">
             <h1 class="text-3xl font-bold">SKILL ISSUE</h1>
-          </div> <div class="w-full">
+          </div> 
+          <div class="w-full">
             <h1 class="text-3xl font-bold">SKILL ISSUE</h1>
           </div>
           <!-- mobile v port -->
