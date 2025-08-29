@@ -44,7 +44,7 @@
 
         <!-- skill -->
          <div class="w-[90vw] h-20 border-4 border-dashed border-gray-400 rounded-xl bg-white flex justify-evenly items-center">
-           <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="nodjs" class="w-20">
+           <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="nodjs" class="w-10">
          </div>
     </div>
 
