@@ -50,7 +50,6 @@
            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/452092/react.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/452092/react.svg" alt="nodjs" class="w-12">
-           https://www.svgrepo.com/show/354113/nextjs-icon.svg
          </div>
     </div>
 
