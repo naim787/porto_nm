@@ -19,7 +19,7 @@
 </Navbar>
 
 
-<div class="w-[100vw] h-auto flex flex-col bg-[radial-gradient(#BDBDBD_1px,transparent_0)] [background-size:30px_30px]  overflow-x-scroll">
+<div class="w-[100vw] h-auto flex flex-col bg-[radial-gradient(#BDBDBD_1px,transparent_0)] [background-size:30px_30px]   overflow-x-scroll">
 
     <!-- main -->
     <div class="w-full h-[100vh] flex justify-center items-center p-2">
