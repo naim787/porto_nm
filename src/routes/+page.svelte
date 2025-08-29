@@ -1,6 +1,6 @@
 <script>
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from "flowbite-svelte";
-  <Pin
+  Pin
 </script>
 
 <Navbar class="fixed bg-white border border-b-1 border-gray-200">
