@@ -48,9 +48,6 @@
           <div class="w-full">
             <h1 class="text-3xl font-bold">SKILL ISSUE</h1>
           </div> 
-          <div class="w-full">
-            <h1 class="font-bold">SKILL ISSUE</h1>
-          </div>
           <!-- mobile v port -->
            <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="nodjs" class="w-12">
            <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="nodjs" class="w-30">
