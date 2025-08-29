@@ -59,7 +59,7 @@
            <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" alt="nodjs" class="w-12 bg-black p-2 rounded-xl">
            <img src="https://www.svgrepo.com/show/305719/apachekafka.svg" alt="nodjs" class="w-12">
            <!-- api routs -->
-            <h1 class="font-sans font-bold">EX</h1>
+            <h1 class="font-sans font-bold text-2xl">EX</h1>
            <img src="https://pbs.twimg.com/profile_images/1562960963359293446/rGjvMLR1_400x400.jpg" alt="nodjs" class="w-12">
            <img src="https://gin-gonic.com/_astro/gin.D6H2T_2v_ZD2G7l.webp" alt="nodjs" class="w-12">
            <img src="https://avatars.githubusercontent.com/u/28507035?s=48&v=4" alt="nodjs" class="w-12">
