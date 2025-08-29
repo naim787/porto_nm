@@ -65,9 +65,9 @@
            <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" alt="nodjs" class="w-12 bg-black p-2 rounded-xl">
            <div class="w-full">
              <h1 class="">backend framework</h1>
-             <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="nodjs" class="w-12">
-           </div>
-          <!-- api routs -->
+            </div>
+            <!-- api routs -->
+            <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="nodjs" class="w-12">
            <h1 class="font-sans font-bold text-5xl m-2">EX</h1>
            <img src="https://pbs.twimg.com/profile_images/1562960963359293446/rGjvMLR1_400x400.jpg" alt="nodjs" class="w-12">
            <img src="https://gin-gonic.com/_astro/gin.D6H2T_2v_ZD2G7l.webp" alt="nodjs" class="w-12">
