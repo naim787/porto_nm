@@ -43,7 +43,7 @@
         </div>
 
         <!-- skill -->
-         <div class="w-full h-53 "></div>
+         <div class="w-full h-53 bo"></div>
     </div>
 
 </div>
