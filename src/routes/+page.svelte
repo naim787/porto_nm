@@ -107,7 +107,9 @@
 
     <!-- projects -->
     <div class="w-full h-auto">
-      div.*
+      <div class=""></div>
+      <div class=""></div>
+      <div class=""></div>
     </div>
 
 </div>
