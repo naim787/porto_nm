@@ -36,6 +36,7 @@
         <div class="w-80 h-100 bg-white rounded-xl border-4 border-dashed relative p-2">
           <h1 class="text-8xl absolute left-[40%] top-[-22%] transform origin-center rotate-180 mcpe-font">^</h1>
           <h1 class="text-4xl">About </h1>
+          <div class=""></div>
           <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deleniti asperiores consequuntur explicabo accusantium velit perspiciatis. Ut pariatur omnis similique repellat sit iste, corrupti minus! Ipsam asperiores quis, in neque ea obcaecati maxime nulla officiis optio atque eius quibusdam quisquam velit facilis impedit cupiditate provident! Voluptas eaque iure quod deserunt velit fugiat illo ea reiciendis doloremque culpa ex ullam amet, et reprehenderit quis blanditiis veritatis deleniti laboriosam fugit vitae. Inventore iste, temporibus id omnis facilis rem blanditiis modi fugiat ut corporis. Suscipit incidunt dolorum earum neque qui libero, eveniet eum ducimus a optio adipisci cupiditate, dolor asperiores est rem nihil!</p>
         </div>
     </div>
