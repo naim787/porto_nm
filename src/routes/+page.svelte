@@ -43,7 +43,7 @@
         </div>
 
         <!-- skill -->
-         <div class="w"></div>
+         <div class="w-ful"></div>
     </div>
 
 </div>
