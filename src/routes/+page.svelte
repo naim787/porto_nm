@@ -65,7 +65,7 @@
            <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" alt="nodjs" class="w-12 bg-black p-2 rounded-xl">
            <div class="w-full">
              <h1 class="">backend framework</h1>
-            </div>
+           </div>
             <!-- api routs -->
           <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="nodjs" class="w-12">
            <h1 class="font-sans font-bold text-5xl m-2">EX</h1>
