@@ -2,7 +2,7 @@
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from "flowbite-svelte";
 </script>
 
-<Navbar class="fixed bg-white border border-b-1 border-gray-200 ">
+<Navbar class="fixed bg-white border border-b-1 border-gray-200 z-">
   <NavBrand href="/" class="mcpe-font text-5xl font-bold p-2">N</NavBrand>
   <NavHamburger class="bg-gray-300"/>
   <NavUl class="h-15 bg-white rounded-md">
