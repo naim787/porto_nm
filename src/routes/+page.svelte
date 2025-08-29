@@ -116,7 +116,7 @@
             <p class="mb-3 leading-tight font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
             <div class="w-full h-20">
               <span class="font-sans font-bold text-2xl text-blue-500 text-center">GO</span>
-              <span class="font-bold font-s text-2xl text-blue-500 text-center border">FIBER</span>
+              <span class="font-bold font-serif text-2xl text-blue-500 text-center border">FIBER</span>
             </div>
           </div>
         </Card>
