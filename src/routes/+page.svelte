@@ -33,7 +33,7 @@
 
     <!-- about -->
     <div class="w-full h-[100vh] flex flex-col items-center">
-        <div class="w-80 h-100 bg-white rounded-xl border border-dashed">
+        <div class="w-80 h-100 bg-white rounded-xl border border-dashed relative">
           <h1 class="text-5xl absolute left-0">^</h1>
         </div>
     </div>
