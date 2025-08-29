@@ -110,7 +110,7 @@
 
   <!-- projects -->
   <div class="w-full h-[100vh] flex justify-evenly mt-20">
-    <div class="space-y-4">
+    <div class="space-y">
         <Card img="./bakar-r-h.png" class="h-auto">
           <div class="m-6">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
