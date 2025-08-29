@@ -119,7 +119,8 @@
                 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png" alt="fiber" class="w-15">
             </div>
           </div>
-        </Card>   <Card img="./bakar-r-h.png" class="h-100 bg-white">
+        </Card> 
+        <Card img="./bakar-r-h.png" class="h-100 bg-white">
           <div class="m-6">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
             <p class="mb-3 leading-tightz font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
