@@ -45,9 +45,6 @@
         <!-- skill -->
          <div class="w-[90vw] h-20 border-4 border-dashed border-gray-400 rounded-xl bg-white flex justify-evenly items-center">
           <!-- mobile v port -->
-          <div class="">
-            
-          </div>
            <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="nodjs" class="w-12">
            <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="nodjs" class="w-30">
            <img src="https://bun.com/logo.svg" alt="nodjs" class="w-12">
