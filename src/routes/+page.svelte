@@ -38,7 +38,7 @@
           <h1 class="text-8xl absolute left-[40%] top-[-22%] transform origin-center rotate-180 mcpe-font">^</h1>
           <h1 class="text-4xl">ABOUT</h1>
           <div class="h-[90%] overflow-y-scroll font-sans">
-            <p class="">lorem-500</p>
+            <p class="">lorem</p>
           </div>
         </div>
 
