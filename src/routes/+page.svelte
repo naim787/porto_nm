@@ -96,7 +96,6 @@
              <h1 class="">oprasig system</h1>
            </div>
            <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png" alt="nodjs" class="w-15">
-           <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Lubuntu_logo_only.svg" alt="nodjs" class="w-15">
            <div class="w-full">
              <h1 class="">dapp web3</h1>
            </div>
