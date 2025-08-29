@@ -43,8 +43,8 @@
         </div>
 
         <!-- skill -->
-         <div class="w-[90vw] h-20 border-4 border-dashed border-gray-400 rounded-xl bg-white">
-          
+         <div class="w-[90vw] h-20 border-4 border-dashed border-gray-400 rounded-xl bg-white flex">
+
          </div>
     </div>
 
