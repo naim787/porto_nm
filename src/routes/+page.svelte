@@ -65,7 +65,7 @@
            <img src="https://www.svgrepo.com/show/303494/vue-9-logo.svg" alt="nodjs" class="w-12">
            <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" alt="nodjs" class="w-12 bg-black p-2 rounded-xl">
            <div class="w-full">
-             <h1 class="">frontend framework</h1>
+             <h1 class="">backend framework</h1>
             </div>
            <img src="https://www.svgrepo.com/show/368866/nuxtjs.svg" alt="nodjs" class="w-12">
            <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png" alt="fiber" class="w-25">
