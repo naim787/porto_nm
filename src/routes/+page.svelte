@@ -1,5 +1,8 @@
 <script>
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from "flowbite-svelte";
+   import { Card, Button, Toggle } from "flowbite-svelte";
+  import { ArrowRightOutline } from "flowbite-svelte-icons";
+  let vCard = false;
 </script>
 
 <Navbar class="fixed bg-white border border-b-1 border-gray-200 z-10 shadow-2xl shadow-white">
