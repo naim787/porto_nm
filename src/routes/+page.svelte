@@ -107,7 +107,7 @@
 
     <!-- projects -->
     <div class="w-full h-auto">
-      <div class="w-80 "></div>
+      <div class="w-80 h-"></div>
     </div>
 
 </div>
