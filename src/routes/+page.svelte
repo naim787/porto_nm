@@ -105,9 +105,9 @@
   </div>
 
 
-    <!-- projects -->
-    <div class="w-[90vw] h-[100vh] bg-red-500">
-      <div class="w-80 h-96 border-3 border-dashed"></div>
-    </div>
+  <!-- projects -->
+  <div class="w-[90vw] h-[100vh] bg-red-500">
+    <div class="w-80 h-96 border-3 border-dashed"></div>
+  </div>
 
 </div>
