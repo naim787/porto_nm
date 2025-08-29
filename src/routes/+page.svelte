@@ -42,7 +42,7 @@
           </div>
         </div>
 
-        skill
+        <!-- skill -->
     </div>
 
 </div>
