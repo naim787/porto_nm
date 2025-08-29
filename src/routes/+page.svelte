@@ -60,12 +60,12 @@
           </div>
            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/452092/react.svg" alt="nodjs" class="w-12">
-           <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/354521/vitejs.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/303494/vue-9-logo.svg" alt="nodjs" class="w-12">
            <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" alt="nodjs" class="w-12 bg-black p-2 rounded-xl">
            <div class="w-full">
              <h1 class="">backend framework</h1>
+             <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="nodjs" class="w-12">
            </div>
           <!-- api routs -->
            <h1 class="font-sans font-bold text-5xl m-2">EX</h1>
