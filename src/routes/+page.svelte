@@ -163,7 +163,7 @@
   <Heading tag="h2" class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Password requirements</Heading>
   <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
     <Li>
-      EMAIL : <span class="">naimmmmab@gmail.com</span>
+      EMAIL : <span class="font-serif">naimmmmab@gmail.com</span>
     </Li>
     <Li>
       GITHUB :  
