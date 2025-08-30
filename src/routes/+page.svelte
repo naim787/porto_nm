@@ -176,6 +176,6 @@
 
 
 
-  <Footer />
-
+  
 </div>
+<Footer />
