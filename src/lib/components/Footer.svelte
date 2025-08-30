@@ -35,22 +35,5 @@
   <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700" />
   <div class="sm:flex sm:items-center sm:justify-between">
     <FooterCopyright href="/" by="Flowbite™" />
-    <div class="mt-4 flex space-x-6 sm:mt-0 sm:justify-center rtl:space-x-reverse">
-      <FooterIcon href="/">
-        <FacebookSolid class="h-5 w-5 text-gray-500 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white" />
-      </FooterIcon>
-      <FooterIcon href="/">
-        <DiscordSolid class="h-5 w-5 text-gray-500 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white" />
-      </FooterIcon>
-      <FooterIcon href="/">
-        <TwitterSolid class="h-5 w-5 text-gray-500 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white" />
-      </FooterIcon>
-      <FooterIcon href="/">
-        <GithubSolid class="h-5 w-5 text-gray-500 hover:text-gray-900 dark:text-gray-500 dark:hover:text-white" />
-      </FooterIcon>
-      <FooterIcon href="/">
-        <Dribble />
-      </FooterIcon>
-    </div>
   </div>
 </Footer>
