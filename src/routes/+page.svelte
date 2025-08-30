@@ -1,5 +1,5 @@
 <script>
-  import Fo from "$lib/components/Fot.svelte";
+  import Fot from "$lib/components/Fot.svelte";
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Card, Button, Toggle, Li, List, Heading } from "flowbite-svelte";
 </script>
 
