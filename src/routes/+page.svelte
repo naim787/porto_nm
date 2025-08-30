@@ -1,5 +1,5 @@
 <script>
-  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Card, Button, Toggle } from "flowbite-svelte";
+  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Card, Button, Toggle, Li, List, Heading } from "flowbite-svelte";
 </script>
 
 <Navbar class="fixed bg-white border border-b-1 border-gray-200 z-10 shadow-2xl shadow-white">
@@ -65,7 +65,9 @@
            <img src="https://www.svgrepo.com/show/452092/react.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/354521/vitejs.svg" alt="nodjs" class="w-12">
            <img src="https://www.svgrepo.com/show/303494/vue-9-logo.svg" alt="nodjs" class="w-12">
-           <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" alt="nodjs" class="w-12 bg-black p-2 rounded-xl">
+           <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" alt="nodjs" class="w-12 bg-black p-2 rounded-xl"> 
+           <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="nodjs" class="w-15 rounded-xl">
+           <img src=" https://uikits.design/.netlify/images?url=_astro%2Fdaisy-ui.DJchIcaa.png" alt="nodjs" class="w-15 rounded-xl">
            <div class="w-full">
              <h1 class="">backend framework</h1>
            </div>
@@ -112,7 +114,7 @@
   </div>
   <!-- projects -->
   <div class="w-full h-[100vh] flex justify-evenly mt-20 flex-wrap">
-        <Card img="./bakar-r-h.png" class="h-100 bg-white">
+        <Card img="./bakar-r-h.png" class="h-100 my-2 bg-white">
           <div class="m-6">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
             <p class="mb-3 leading-tightz font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -122,7 +124,7 @@
             </div>
           </div>
         </Card> 
-        <Card img="./bakar-r-h.png" class="h-100 bg-white">
+        <Card img="./porto-3.png" class="h-100 my-2 bg-white">
           <div class="m-6">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
             <p class="mb-3 leading-tightz font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -132,7 +134,7 @@
             </div>
           </div>
         </Card>
-        <Card img="./bakar-r-h.png" class="h-100 bg-white">
+        <Card img="./bakar-r-h.png" class="h-100 my-2 bg-white">
           <div class="m-6">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
             <p class="mb-3 leading-tightz font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -142,7 +144,7 @@
             </div>
           </div>
         </Card>
-        <Card img="./bakar-r-h.png" class="h-100 bg-white">
+        <Card img="./bakar-r-h.png" class="h-100 my-2 bg-white">
           <div class="m-6">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
             <p class="mb-3 leading-tightz font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
@@ -153,5 +155,22 @@
           </div>
         </Card>
   </div> 
+
+   <div class="w-full px-4">
+      <h1 class="text-6xl">CONTACTS</h1>
+  </div>
+
+  <Heading tag="h2" class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Password requirements</Heading>
+  <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
+    <Li>
+      EMAIL : <span class="sans-sans">naimmmmab@gmail.com</span>
+    </Li>
+    <Li>
+      GITHUB :  
+    </Li>
+    <Li>
+      YOU TOUBE :
+    </Li>
+  </List>
 
 </div>
