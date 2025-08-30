@@ -1,6 +1,5 @@
 <script>
   import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon } from "flowbite-svelte";
-  import Dribble from "$icons/Dribble.svelte";
 </script>
 
 <Footer footerType="socialmedia">
