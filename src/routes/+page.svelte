@@ -166,7 +166,7 @@
       EMAIL : <a href="/" class="font-serif">naimmmmab@gmail.com</a>
     </Li>
     <Li>
-      GITHUB :  
+      GITHUB :   <a href="/" class="font-serif">naimmmmab@gmail.com</a>
     </Li>
     <Li>
       YOU TOUBE :
