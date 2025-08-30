@@ -5,7 +5,7 @@
 <Footer footerType="socialmedia">
   <div class="md:flex md:justify-between">
     <div class="mb-6 md:mb-0">
-      <h1 class="text-2xl"></h1>
+      <h1 class="text-2xl mcpe-font"></h1>
     </div>
     <div class="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-6">
       <div>
