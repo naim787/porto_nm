@@ -2,7 +2,7 @@
   import { Footer, FooterCopyright, FooterLinkGroup, FooterLink, FooterBrand, FooterIcon } from "flowbite-svelte";
 </script>
 
-<Footer footerType="socialmedia">
+<Footer footerType="socialmedia w-">
   <div class="md:flex md:justify-between">
     <div class="mb-6 md:mb-0">
       <FooterBrand href="https://flowbite.com" src="/images/flowbite-svelte-icon-logo.svg" alt="Flowbite Logo" name="Flowbite" />
