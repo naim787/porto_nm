@@ -160,7 +160,7 @@
       <h1 class="text-6xl">CONTACTS</h1>
   </div>
 
-  <Heading tag="h2" class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">CONTA US</Heading>
+  <Heading tag="h2" class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">CONTACTS US</Heading>
   <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400 p-4 bg-white shadow-2xl">
     <Li>
       EMAIL : <a href="/" class="font-serif text-blue-500">naimmmmab@gmail.com</a>
