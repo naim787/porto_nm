@@ -161,7 +161,7 @@
   </div>
 
   <Heading tag="h2" class="mb-2 text-lg font-semibold text-gray-900 dark:text-white">Password requirements</Heading>
-  <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400 sye">
+  <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
     <Li>
       EMAIL : <span class="sans-sans">naimmmmab@gmail.com</span>
     </Li>
