@@ -157,7 +157,7 @@
         </Card>
   </div> 
 
-   <div class="w-full h- px-4">
+   <div class="w-full h-100 px-4">
       <h1 class="text-6xl">CONTACTS</h1>
   </div>
 
