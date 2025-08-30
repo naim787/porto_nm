@@ -23,7 +23,7 @@
         </FooterLinkGroup>
       </div>
       <div>
-        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+        <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase dark:text-white">Legal</h2>
         <FooterLinkGroup>
           <FooterLink class="mb-4" href="/">Privacy Policy</FooterLink>
           <FooterLink class="mb-4" href="/">Terms & Conditions</FooterLink>
