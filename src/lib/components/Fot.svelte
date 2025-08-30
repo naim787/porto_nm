@@ -9,7 +9,7 @@
     </div>
     <div class="flex flex-col gap-3">
       <div>
-        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+        <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase dark:text-white">Resources</h2>
         <FooterLinkGroup>
           <FooterLink class="mb-4" href="/">Flowbite</FooterLink>
           <FooterLink class="mb-4" href="/">Tailwind CSS</FooterLink>
