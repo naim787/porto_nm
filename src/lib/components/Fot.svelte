@@ -3,7 +3,7 @@
 </script>
 
 <Footer footerType="socialmedia">
-  <div class="flex flex-col md:flex-">
+  <div class="flex flex-col md:flex-row">
     <div class="mb-6 md:mb-0">
       <h1 class="text-8xl mcpe-font hidden md:inline-block">N</h1>
     </div>
