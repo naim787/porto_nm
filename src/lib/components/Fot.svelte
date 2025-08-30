@@ -7,7 +7,7 @@
     <div class="mb-6 md:mb-0">
       <h1 class="text-8xl mcpe-font hidden md:inline-block">N</h1>
     </div>
-    <div class="flex flex-col ">
+    <div class="flex flex-col md:">
       <div>
         <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase dark:text-white">Resources</h2>
         <FooterLinkGroup>
