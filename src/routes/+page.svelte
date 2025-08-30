@@ -1,5 +1,5 @@
 <script>
-  import Footer from "$lib/components/Footer.svelte";
+  import Footer from "$lib/components/Fot.svelte";
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Card, Button, Toggle, Li, List, Heading } from "flowbite-svelte";
 </script>
 
