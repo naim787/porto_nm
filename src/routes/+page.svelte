@@ -114,7 +114,7 @@
       <h1 class="text-6xl">projects</h1>
   </div>
   <!-- projects -->
-  <div class="w-full h-[100vh] flex justify-evenly mt-20 flex-wrap">
+  <div class="w-full flex justify-evenly mt-20 flex-wrap">
         <Card img="./bakar-r-h.png" class="h-100 my-2 bg-white">
           <div class="m-6">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
