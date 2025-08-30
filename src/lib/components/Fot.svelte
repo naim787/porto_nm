@@ -3,7 +3,7 @@
 </script>
 
 <Footer footerType="socialmedia">
-  <div class="flex">
+  <div class="flex flex-col">
     <div class="mb-6 md:mb-0">
       <!-- <h1 class="text-8xl mcpe-font">N</h1> -->
     </div>
