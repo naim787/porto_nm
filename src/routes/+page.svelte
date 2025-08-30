@@ -162,20 +162,20 @@
   </div>
 
   <div class="h-[100vh] w-full">
-    
+    <Heading tag="h2" class="text-lg font-semibold text-gray-900 dark:text-white">CONTACTS US</Heading>
+    <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400 p-4 bg-white shadow-2xl">
+      <Li>
+        EMAIL : <a href="/" class="font-serif text-blue-500">naimmmmab@gmail.com</a>
+      </Li>
+      <Li>
+        GITHUB :  <a href="https://github.com/naim787" class="font-serif text-blue-500">naim787</a>
+      </Li>
+      <Li>
+        YOU TOUBE :   <a href="https://www.youtube.com/@ncodingg" class="font-serif text-blue-500">ncoding</a>
+      </Li>
+    </List>
+
   </div>
-  <Heading tag="h2" class="text-lg font-semibold text-gray-900 dark:text-white">CONTACTS US</Heading>
-  <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400 p-4 bg-white shadow-2xl">
-    <Li>
-      EMAIL : <a href="/" class="font-serif text-blue-500">naimmmmab@gmail.com</a>
-    </Li>
-    <Li>
-      GITHUB :  <a href="https://github.com/naim787" class="font-serif text-blue-500">naim787</a>
-    </Li>
-    <Li>
-      YOU TOUBE :   <a href="https://www.youtube.com/@ncodingg" class="font-serif text-blue-500">ncoding</a>
-    </Li>
-  </List>
 
 </div>
 
