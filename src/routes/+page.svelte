@@ -175,6 +175,6 @@
 
 
 
-  Footer
+  <Footer></Footer>
 
 </div>
