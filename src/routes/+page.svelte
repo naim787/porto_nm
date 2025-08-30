@@ -163,7 +163,7 @@
 
   <div class="w-2/3 m-32">
     <Heading tag="h2" class="text-lg font-semibold text-gray-900 dark:text-white">CONTACTS US</Heading>
-    <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400 p-4 bg-white shadow-2xl rounded">
+    <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400 p-4 bg-white shadow-2xl rounded-xl">
       <Li>
         EMAIL : <a href="/" class="font-serif text-blue-500">naimmmmab@gmail.com</a>
       </Li>
