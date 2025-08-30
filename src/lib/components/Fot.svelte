@@ -5,7 +5,7 @@
 <Footer footerType="socialmedia">
   <div class="flex flex-col">
     <div class="mb-6 md:mb-0">
-      <h1 class="text-8xl mcpe-font hidden md:">N</h1>
+      <h1 class="text-8xl mcpe-font hidden md:c">N</h1>
     </div>
     <div class="flex flex-col gap-3">
       <div>
