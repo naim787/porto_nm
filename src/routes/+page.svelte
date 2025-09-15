@@ -1,180 +1,78 @@
 <script>
+  import Contacts from "$lib/components/Contacts.svelte";
   import Footer from "$lib/components/Fot.svelte";
-  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Card, Button, Toggle, Li, List, Heading } from "flowbite-svelte";
+  import Projects from "$lib/components/Projects.svelte";
+  import Skill from "$lib/components/Skill.svelte";
+  import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Card, Button, Toggle } from "flowbite-svelte";
 </script>
 
-<Navbar class="fixed bg-white border border-b-1 border-gray-200 z-10 shadow-2xl shadow-white">
+<Navbar class="fixed w-[100vw] backdrop-blur border border-b-1 border-gray-200 z-10">
   <NavBrand href="/" class="mcpe-font text-5xl font-bold p-2">N</NavBrand>
   <NavHamburger class="bg-gray-300"/>
   <NavUl class="h-15 bg-white rounded-md">
-    <NavLi href="/">Home</NavLi>
-    <NavLi href="/">Navbar</NavLi>
-    <NavLi href="/">Accordion</NavLi>
-    <NavLi href="/">Alert</NavLi>
-    <NavLi href="/">Avatar</NavLi>
+    <NavLi href="#tentag">Tenteng</NavLi>
+    <NavLi href="#proyek">Proyek</NavLi>
+    <NavLi href="#kontak">Kontak</NavLi>
   </NavUl>
 </Navbar>
 
 
-<div class="w-[100vw] h-auto flex flex-col justify-center items-center bg-[radial-gradient(#BDBDBD_1px,transparent_0)] [background-size:30px_30px] overflow-x-hidden mcpe-font">
+<div class="w-[100vw] h-auto flex flex-col justify-center items-center bg-[radial-gradient(#BDBDBD_1px,transparent_0)] [background-size:30px_30px] overflow-x-hidden pt-15">
 
     <!-- main -->
-    <div class="w-[90vw] h-[100vh] flex justify-center items-center">
-        <div class="w-full h-auto border-[1px] bg-white border-dashed rounded-xl border-gray-300 shadow-2xl flex-col 
-        p-4 xl:shadow-none xl:bg-transparent xl:border-none">
+    <div class="w-[100vw] h-[100vh] flex justify-evenly items-center flex-col lg:flex-row">
+        <div class="w-auto h-auto border-[1px] bg-white border-dashed rounded-xl border-gray-300 shadow-2xl flex-col 
+        p-4 lg:shadow-none lg:bg-transparent lg:border-none">
            <div class="mcpe-font text-green-700 font-vold text-[2vh]">2025</div>
-           <div class="mcpe-font text-[9vh] font-bold">NAIM ABDULLAH</div>
+           <div class="mcpe-font text-[5.5vh] font-bold">NAIM ABDULLAH</div>
            <div class="flex w-full gap-2 font-bold">
                <p class="p-2 bg-green-500/50 text-green-900 rounded-xl">NODEJS</p>
                <p class="p-2 bg-blue-500/50 text-blue-900 rounded-md">GO</p>
                <p class="p-2 bg-gray-300 rounded-md">BUN</p>
         </div>
         </div>
+        <img src="./nm-no-bg.png" alt="" class="w-100 bg-gray-700 rounded-2xl">
     </div>
 
-    <div class="w-full px-4">
-      <h1 class="text-6xl">ABOUT</h1>
+    <div class="w-full px-4" id="tentag">
+      <h1 class="text-6xl mcpe-font">TENTAG SAYA</h1>
     </div>
     <!-- about -->
     <div class="w-full h-auto flex flex-row flex-wrap justify-evenly items-center gap-4">
       <!-- about -->
-        <div class="w-115 h-200 bg-white rounded-xl border-4 border-dashed border-gray-400 relative p-2">
-          <h1 class="text-8xl absolute left-[40%] top-[-11%] transform origin-center rotate-180 mcpe-font">^</h1>
+        <div class="w-115 h-185 bg-white rounded-xl border-4 border-dashed border-gray-400 relative p-2">
+          <h1 class="text-8xl absolute left-[40%] top-[-13%] transform origin-center rotate-180 mcpe-font">^</h1>
           <!-- <h1 class="text-3xl">ABOUT</h1> -->
-          <div class="h-[90%] overflow-y-scroll font-sans">
-            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde tempore aperiam iste sapiente inventore, repellendus voluptate sed ad reprehenderit nostrum, distinctio natus accusantium deleniti explicabo officiis omnis eum maxime quam saepe non eius? Inventore, fuga! Mollitia error dolores dolor cumque deserunt, perferendis nesciunt tenetur maxime, ad laudantium earum corrupti delectus excepturi debitis officiis eligendi ipsam cupiditate voluptatibus expedita numquam quibusdam nisi! Id, est veritatis? Est illo aut ducimus porro aliquam voluptatum voluptatem numquam, itaque quos doloremque totam doloribus, sequi culpa vitae eveniet! Facere esse dolorem, tempore maiores cum qui fuga reprehenderit consequuntur. Possimus quod corrupti laudantium! Modi id ratione ullam magnam repellat? Quo labore similique corporis voluptatibus modi ratione ut ex sunt sequi iste nisi, exercitationem at. Esse voluptates, expedita ducimus recusandae harum totam eius possimus impedit natus nostrum sint hic aliquid alias quaerat neque voluptas sit ab culpa repudiandae quod blanditiis voluptatem quia. Itaque deserunt enim dolores eius ipsa quia omnis inventore, aspernatur neque eos placeat voluptate odit dolorem libero, numquam voluptates expedita. Doloribus distinctio vitae facere ipsa unde voluptatem saepe, minima eligendi labore veritatis. Sit explicabo facere sint ut, consequuntur molestias iste quod ullam nobis nulla, dolore quae ab dolores blanditiis sequi architecto. Suscipit, aspernatur officiis rem ut eveniet et, voluptas quis laboriosam magni alias non id quia. Et beatae nostrum ab non consequatur porro est itaque quo hic animi aut quam blanditiis atque quasi voluptate temporibus sapiente, vero expedita totam. Vitae sapiente hic adipisci, non at natus aliquam sunt itaque impedit? Labore laboriosam est quae suscipit, consequatur qui maxime eveniet fugiat vitae adipisci, aut doloribus recusandae vel accusamus eos commodi amet dolorem enim sit corporis nemo numquam veritatis deleniti! Commodi quas distinctio ad nam architecto amet, pariatur omnis ipsam dicta, nihil reiciendis natus, officiis asperiores deserunt ut consectetur illum iusto nisi molestias cupiditate mollitia. Necessitatibus dicta quis reiciendis ducimus eum! Itaque dolorum neque rem sint, modi ullam amet suscipit expedita hic officiis ducimus veritatis culpa cupiditate deleniti quod rerum, provident magnam delectus aspernatur fuga iusto totam reiciendis natus. Cupiditate neque, atque tempora temporibus repellendus, non beatae voluptate consectetur, odit adipisci iste ab animi voluptatum molestias ex! Iusto sed, hic quidem praesentium ipsa cum, quas odio eaque consectetur, dolorem cupiditate vel dignissimos incidunt dolores! Ducimus dolore consequuntur dignissimos sint alias numquam eos debitis officiis dolorum? Voluptatum sit minus amet iste atque velit, incidunt eaque recusandae nulla a fuga itaque unde cumque explicabo, aliquid iure ipsam odit vero hic et fugiat? Placeat repudiandae autem minima! Veniam, nisi culpa perferendis facilis non eaque ad est quia, dignissimos ratione error. Explicabo dignissimos excepturi vero nostrum est similique ratione rerum repudiandae repellendus et sapiente dicta esse velit aspernatur facere eos cupiditate placeat omnis, veniam possimus, quasi natus debitis. Quis assumenda ipsam aperiam repellendus alias nostrum recusandae quibusdam eaque possimus ex voluptates eveniet et consequuntur quod enim, fugiat fugit, nemo, a voluptatum accusantium numquam maxime culpa aut earum. Facilis dignissimos nemo aspernatur dicta inventore vero ipsam velit sunt reiciendis officia commodi ab perferendis libero aliquid animi culpa, aut est numquam distinctio odit minima.</p>
+          <div class="h-180 overflow-y-auto font-sans">
+            <p class="text-2xl">Nama saya Chairun Naim Abdullah, seorang pengembang web yang berasal dari Sulawesi Utara, Indonesia, dengan latar belakang pendidikan terakhir di SMA. Meskipun saya tidak menempuh pendidikan tinggi formal di bidang teknologi, saya berhasil membuktikan bahwa pembelajaran otodidak yang konsisten dan pengalaman nyata di lapangan bisa membawa saya menjadi seorang profesional yang kompeten di dunia teknologi, khususnya dalam pengembangan web dan blockchain. <br><br>
+
+Saya telah memiliki pengalaman lebih dari 4 tahun dalam mengembangkan berbagai jenis aplikasi web, mulai dari sistem internal perusahaan hingga solusi berbasis Web3 yang memanfaatkan teknologi blockchain. Dalam perjalanan karier saya, saya terbiasa bekerja dengan teknologi-teknologi modern, baik untuk pengembangan front-end maupun back-end, dan selalu mengikuti perkembangan terbaru dalam dunia pengembangan perangkat lunak.  <br><br>
+
+Di sisi back-end, saya menguasai dan aktif menggunakan Node.js, Bun, serta Golang—tiga teknologi yang memungkinkan saya membangun sistem yang tangguh, ringan, cepat, dan skalabel. Saya berfokus tidak hanya pada performa, tetapi juga pada keamanan, struktur kode yang bersih, dan kemudahan dalam pengelolaan jangka panjang.<br><br>
+
+Salah satu bidang yang sangat saya tekuni dan menjadi kekuatan utama saya adalah dunia blockchain dan Web3. Tidak hanya sekadar membangun aplikasi desentralisasi (DApps), saya juga mampu merancang dan mengimplementasikan blockchain Layer 1 (L1) saya sendiri, yang berarti saya memahami arsitektur sistem blockchain dari tingkat paling dasar, termasuk lapisan konsensus, yang merupakan jantung dari sistem desentralisasi.  <br><br>
+
+Saya percaya bahwa teknologi bukan hanya tentang kode, tetapi tentang menciptakan solusi yang relevan dan berkelanjutan. Oleh karena itu, dalam setiap proyek yang saya tangani, saya selalu berusaha memahami kebutuhan bisnis dan pengguna akhir, agar solusi yang saya bangun benar-benar memiliki dampak positif dan nyata.  <br><br>
+
+Sebagai seorang profesional yang terus belajar, saya terbuka terhadap tantangan baru, kolaborasi lintas disiplin, dan kesempatan untuk tumbuh bersama komunitas teknologi di Indonesia maupun secara global. Ke depan, saya ingin terus berkontribusi dalam membangun ekosistem teknologi yang inklusif, efisien, dan inovatif—khususnya dalam mendorong adopsi teknologi blockchain di Indonesia dan kawasan Asia Tenggara.</p>
           </div>
         </div>
 
         <!-- skill -->
-         <div class="w-115 h-auto border-4 border-dashed border-gray-400 rounded-xl flex justify-start items-center flex-wrap p-3 relative mt-[5vh]">
-          <h1 class="text-8xl absolute left-[40%] top-[-13%] transform origin-center rotate-180 mcpe-font">^</h1>
-          <div class="w-full">
-            <h1 class="text-3xl font-bold">SKILL ISSUE</h1>
-          </div> 
-          <div class="w-full">
-            <h1 class="">Language & Runtime</h1>
-          </div>
-            <!-- runtime programing language-->
-            <img src="https://nodejs.org/static/logos/jsIconGreen.svg" alt="nodjs" class="w-12">
-            <img src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Blue.svg" alt="nodjs" class="w-30">
-            <img src="https://bun.com/logo.svg" alt="nodjs" class="w-12">
-          <div class="w-full">
-            <h1 class="">frontend framework</h1>
-          </div>
-           <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg" alt="nodjs" class="w-12">
-           <img src="https://www.svgrepo.com/show/452092/react.svg" alt="nodjs" class="w-12">
-           <img src="https://www.svgrepo.com/show/354521/vitejs.svg" alt="nodjs" class="w-12">
-           <img src="https://www.svgrepo.com/show/303494/vue-9-logo.svg" alt="nodjs" class="w-12">
-           <img src="https://astro.build/assets/press/astro-icon-light-gradient.svg" alt="nodjs" class="w-12 bg-black p-2 rounded-xl"> 
-           <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" alt="nodjs" class="w-15 rounded-xl">
-           <img src=" https://uikits.design/.netlify/images?url=_astro%2Fdaisy-ui.DJchIcaa.png" alt="nodjs" class="w-15 rounded-xl">
-           <div class="w-full">
-             <h1 class="">backend framework</h1>
-           </div>
-            <!-- api routs -->
-           <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="nodjs" class="w-12">
-           <h1 class="font-sans font-bold text-5xl m-2">EX</h1>
-           <img src="https://pbs.twimg.com/profile_images/1562960963359293446/rGjvMLR1_400x400.jpg" alt="nodjs" class="w-12">
-           <img src="https://gin-gonic.com/_astro/gin.D6H2T_2v_ZD2G7l.webp" alt="nodjs" class="w-12">
-           <img src="https://www.svgrepo.com/show/368866/nuxtjs.svg" alt="nodjs" class="w-12">
-           <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png" alt="fiber" class="w-25">
-           <img src="https://avatars.githubusercontent.com/u/119793569?s=200&v=4" alt="nodjs" class="w-12">
-           <img src="https://avatars.githubusercontent.com/u/28507035?s=48&v=4" alt="nodjs" class="w-12">
-           <div class="w-full">
-             <h1 class="">message broker & unitest</h1>
-           </div>
-           <!-- unitest api -->
-           <img src="https://www.svgrepo.com/show/305719/apachekafka.svg" alt="nodjs" class="w-12">
-           <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/K6_software_logo.svg" alt="nodjs" class="w-12">
-
-           <div class="w-full">
-             <h1 class="">database</h1>
-           </div>
-           <!-- db -->
-           <img src="https://www.svgrepo.com/show/374094/sqlite.svg" alt="nodjs" class="w-12">
-           <img src="https://www.svgrepo.com/show/353995/leveldb.svg" alt="nodjs" class="w-12">
-           
-           <img src="https://www.svgrepo.com/show/303251/mysql-logo.svg" alt="nodjs" class="w-20">
-           <img src="https://www.svgrepo.com/show/373845/mongo.svg" alt="nodjs" class="w-20">
-           <img src="https://miro.medium.com/v2/resize:fit:470/format:webp/1*T1txuZBh1-Upx9c_po1bpA.png" alt="nodjs" class="w-15">
-           <div class="w-full">
-             <h1 class="">devops</h1>
-           </div>
-           <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png" alt="nodjs" class="w-15">
-           <div class="w-full">
-             <h1 class="">dapp web3</h1>
-           </div>
-           <!-- web3 -->
-           <img src="https://avatars.githubusercontent.com/u/7613128?s=200&v=4" alt="nodjs" class="w-12">
-         </div>
+       <Skill />
   </div>
 
-  <div class="w-full px-4">
-      <h1 class="text-6xl">projects</h1>
+  <div class="w-full px-4" id="proyek">
+      <h1 class="text-6xl mcpe-font">projects</h1>
   </div>
   <!-- projects -->
-  <div class="w-full h-auto flex justify-evenly mt-20 flex-wrap">
-        <Card img="./bakar-r-h.png" class="h-100 my-2 bg-white">
-          <div class="m-6">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            <p class="mb-3 leading-tightz font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            <div class="w-full h-20 flex justify-start items-start gap-2">
-                <h1 class="font-sans font-bold text-2xl text-blue-500">GO</h1>
-                <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png" alt="fiber" class="w-15">
-            </div>
-          </div>
-        </Card> 
-        <Card img="./porto-3.png" class="h-100 my-2 bg-white">
-          <div class="m-6">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            <p class="mb-3 leading-tightz font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            <div class="w-full h-20 flex justify-start items-start gap-2">
-                <h1 class="font-sans font-bold text-2xl text-blue-500">GO</h1>
-                <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png" alt="fiber" class="w-15">
-            </div>
-          </div>
-        </Card>
-        <Card img="./bakar-r-h.png" class="h-100 my-2 bg-white">
-          <div class="m-6">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            <p class="mb-3 leading-tightz font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            <div class="w-full h-20 flex justify-start items-start gap-2">
-                <h1 class="font-sans font-bold text-2xl text-blue-500">GO</h1>
-                <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png" alt="fiber" class="w-15">
-            </div>
-          </div>
-        </Card>
-        <Card img="./bakar-r-h.png" class="h-100 my-2 bg-white">
-          <div class="m-6">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-            <p class="mb-3 leading-tightz font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-            <div class="w-full h-20 flex justify-start items-start gap-2">
-                <h1 class="font-sans font-bold text-2xl text-blue-500">GO</h1>
-                <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png" alt="fiber" class="w-15">
-            </div>
-          </div>
-        </Card>
-  </div> 
+   <Projects />
 
-   <div class="w-full px-4 mt-20">
-      <h1 class="text-6xl">CONTACTS</h1>
+   <div class="w-full px-4 mt-20" id="kontak">
+      <h1 class="text-6xl mcpe-font">CONTACTS</h1>
   </div>
 
-  <div class="w-2/3 m-32">
-    <Heading tag="h2" class="text-lg font-semibold text-gray-900 dark:text-white">CONTACTS US</Heading>
-    <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400 p-9 bg-white shadow-2xl rounded-xl">
-      <Li>
-        EMAIL : <a href="/" class="font-serif text-blue-500">naimmmmab@gmail.com</a>
-      </Li>
-      <Li>
-        GITHUB :  <a href="https://github.com/naim787" class="font-serif text-blue-500">naim787</a>
-      </Li>
-      <Li>
-        YOU TOUBE :   <a href="https://www.youtube.com/@ncodingg" class="font-serif text-blue-500">ncoding</a>
-      </Li>
-    </List>
-  </div>
+  <Contacts />
 
 </div>
 

@@ -13,13 +13,15 @@
         <FooterLinkGroup>
           <FooterLink class="mb-4" href="/">Flowbite</FooterLink>
           <FooterLink class="mb-4" href="/">Tailwind CSS</FooterLink>
+          <FooterLink class="mb-4" href="/">Svelte</FooterLink>
         </FooterLinkGroup>
       </div>
       <div>
-        <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase dark:text-white">Follow us</h2>
+        <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase dark:text-white">Contac Us</h2>
         <FooterLinkGroup>
-          <FooterLink class="mb-4" href="/">GitHub</FooterLink>
-          <FooterLink class="mb-4" href="/">Discord</FooterLink>
+          <FooterLink class="mb-4" href="mailto:naimmmm.abdullah@gmail.com">Email</FooterLink>
+          <FooterLink class="mb-4" href="https://github.com/naim787">GitHub</FooterLink>
+          <FooterLink class="mb-4" href="https://www.youtube.com/@ncodingg">Youtube</FooterLink>
         </FooterLinkGroup>
       </div>
       <div>
