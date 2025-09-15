@@ -31,7 +31,7 @@
                <p class="p-2 bg-gray-300 rounded-md">BUN</p>
         </div>
         </div>
-        <img src="./nm-no-bg.png" alt="" class="w-100 bg-gray-700 rounded-2xl">
+        <img src="./nm-no-bg.webp" alt="" class="w-100 bg-gray-700 rounded-2xl">
     </div>
 
     <div class="w-full px-4" id="tentag">
