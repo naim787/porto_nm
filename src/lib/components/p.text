@@ -1,5 +1,4 @@
-  <script>
-    let skill = [
+      let skill = [
       {
         src: "https://nodejs.org/static/logos/jsIconGreen.svg",
         type: "runtime",
@@ -126,5 +125,48 @@
         width: "w-12"
       },
     ]
-  </script>
   
+  
+  
+  <h1>Bahasa & Runtime</h1>
+      <div class="w-full flex">
+        {#each skill.filter(s => s.type === 'runtime') as dt}
+          <img src={dt.src} class={dt.width} alt="" />
+        {/each}
+      </div>
+      <h1>Frontend Framework</h1>
+      <div class="w-full flex">
+        {#each skill.filter(s => s.type === 'framework_f') as dt}
+          <img src={dt.src} class={dt.width} alt="" />
+        {/each}
+      </div>
+      <h1>Backend Framework</h1>
+      <div class="w-full flex">
+        {#each skill.filter(s => s.type === 'framework_b') as dt}
+          <img src={dt.src} class={dt.width} alt="" />
+        {/each}
+      </div>
+      <h1>Message Broker & Unit Test</h1>
+      <div class="w-full flex">
+        {#each skill.filter(s => s.type === 'msg' || s.type === 'unit') as dt}
+          <img src={dt.src} class={dt.width} alt="" />
+        {/each}
+      </div>
+      <h1>Database</h1>
+      <div class="w-full flex">
+        {#each skill.filter(s => s.type === 'db') as dt}
+          <img src={dt.src} class={dt.width} alt="" />
+        {/each}
+      </div>
+      <h1>DevOps</h1>
+      <div class="w-full flex">
+        {#each skill.filter(s => s.type === 'devops') as dt}
+          <img src={dt.src} class={dt.width} alt="" />
+        {/each}
+      </div>
+      <h1>Web3</h1>
+      <div class="w-full flex">
+        {#each skill.filter(s => s.type === 'web3_l2') as dt}
+          <img src={dt.src} class={dt.width} alt="" />
+        {/each}
+      </div>

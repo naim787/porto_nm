@@ -3,7 +3,7 @@
 
   let dataProjects = [
     {
-        src_parent : "./bakar-r-h.png",
+        src_parent : "",
         tiggiImg : "h-100",
         judul : "Restorant Nm V2",
         deskripsi : "app yang dibuat untuk menyelesaikan masalah yang ada di restorant, untuk management & kariyawan",

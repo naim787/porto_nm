@@ -7342,7 +7342,7 @@ var app = (function () {
     	let Dproject = [
     		{
     			j_proj: "Bakar Rica",
-    			url_proj: "./bakar-r-h.png",
+    			url_proj: "",
     			tes_stc: [
     				'<i class="fa-brands fa-html5 text-4xl m-3 text-orange-500 inline-block"></i>',
     				'<img src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" alt="" class="w-10 inline-block"/>',
