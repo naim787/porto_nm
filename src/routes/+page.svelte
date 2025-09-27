@@ -7,7 +7,7 @@
 </script>
 
 
-<div class="w-[100vw] h-auto flex flex-col justify-center items-center overflow-x-hidden pt-15 bg-linear-to-r from-green-100 to-white">
+<div class="w-[100vw] h-auto flex flex-col justify-center items-center overflow-x-hidden pt-15 bg-linear-to-r from-green-100 to-white md:px-20">
 
     <!-- main -->
     <div class="w-[100vw] h-auto flex justify-evenly items-center flex-col lg:flex-row">
