@@ -23,7 +23,6 @@
         </div>
         <img src="./nm-no-bg.webp" alt="" class="w-100 bg-gray-700 rounded-2xl">
     </div>
-
     <div class="w-full px-4" id="tentag">
       <h1 class="text-6xl mcpe-font">TENTAG SAYA</h1>
     </div>
