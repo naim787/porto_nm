@@ -2,6 +2,7 @@
   import Contacts from "$lib/components/Contacts.svelte";
   import Footer from "$lib/components/Fot.svelte";
   import Projects from "$lib/components/Projects.svelte";
+  import Service from "$lib/components/Service.svelte";
   import Skill from "$lib/components/Skill.svelte";
   import { Card, Button, Toggle } from "flowbite-svelte";
 </script>
@@ -30,7 +31,7 @@
     <!-- about -->
     <div class="w-full h-auto flex flex-row flex-wrap justify-evenly items-center gap-4">
       <!-- about -->
-        <div class="w-full h-auto bg-white relative p-2">
+        <div class="w-full h-auto bg-white relative p-2 rounded-xl">
           <!-- <h1 class="text-3xl">ABOUT</h1> -->
           <div class="">
             <p class="px-10 my-3">
@@ -52,16 +53,19 @@
   </div>
 
   <div class="w-full px-4" id="proyek">
-      <h1 class="text-6xl mcpe-font">projects</h1>
+      <h1 class="text-6xl mcpe-font">Projects</h1>
   </div>
   <!-- projects -->
    <Projects />
 
    <div class="w-full px-4 mt-20" id="kontak">
-      <h1 class="text-6xl mcpe-font">CONTACTS</h1>
+      <h1 class="text-6xl mcpe-font">Layanan</h1>
   </div>
+  <Service />
 
-  <Contacts />
+  <div class="w-full px-4 mt-20" id="kontak">
+     <h1 class="text-6xl mcpe-font">CONTACTS</h1>
+ </div>
 
 </div>
 
