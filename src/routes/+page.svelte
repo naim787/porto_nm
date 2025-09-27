@@ -11,7 +11,7 @@
 
     <!-- main -->
     <div class="w-[100vw] h-[100vh] flex justify-evenly items-center flex-col lg:flex-row">
-        <div class="w-auto h-auto border-[1px] bg-white border-dashed rounded-xl border-gray-300 shadow-2xl flex-col 
+        <div class="w-auto h-auto border-[1px] bg-white flex-col 
         p-4 lg:shadow-none lg:bg-transparent lg:border-none">
            <div class="mcpe-font text-green-700 font-vold text-[2vh]">2025</div>
            <div class="mcpe-font text-[5.5vh] font-bold">NAIM ABDULLAH</div>
