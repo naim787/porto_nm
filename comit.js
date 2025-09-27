@@ -10,7 +10,7 @@ let intervalChecker = null;
 
 function getTimestampMessage() {
     const now = new Date();
-    return `Auto Commit: ${now.toLocaleString()}`;
+    return `Update: ${now.toLocaleString()}`;
 }
 
 // Cek apakah ada commit lokal yang belum di-push
