@@ -7,12 +7,12 @@
 </script>
 
 
-<div class="w-[100vw] h-auto flex flex-col justify-center items-center overflow-x-hidden pt-15">
+<div class="w-[100vw] h-auto flex flex-col justify-center items-center overflow-x-hidden pt-15 bg-linear-to-r from-green-100 to-white">
 
     <!-- main -->
     <div class="w-[100vw] h-[100vh] flex justify-evenly items-center flex-col lg:flex-row">
-        <div class="w-auto h-auto border-[1px] bg-white flex-col 
-        p-4 lg:shadow-none lg:bg-transparent lg:border-none">
+        <div class="w-auto h-auto bg-green-50 flex-col 
+        p-4">
            <div class="mcpe-font text-green-700 font-vold text-[2vh]">2025</div>
            <div class="mcpe-font text-[5.5vh] font-bold">NAIM ABDULLAH</div>
            <div class="flex w-full gap-2 font-bold">
@@ -21,7 +21,7 @@
                <p class="p-2 bg-gray-300 rounded-md">BUN</p>
         </div>
         </div>
-        <img src="./nm-no-bg.webp" alt="" class="w-100 bg-gray-700 rounded-2xl shadow-2xl shadow-blue-200">
+        <img src="./nm-no-bg.webp" alt="" class="w-100 bg-gray-700 rounded-2xl shadow-2xl shadow-green-200">
     </div>
     <div class="w-full px-4" id="tentag">
       <h1 class="text-6xl mcpe-font">TENTAG SAYA</h1>
@@ -32,7 +32,7 @@
         <div class="w-full h-auto bg-white relative p-2">
           <!-- <h1 class="text-3xl">ABOUT</h1> -->
           <div class="">
-            <p class="px-10">
+            <p class="px-10 my-3">
               Nama saya Chairun Naim Abdullah, seorang pengembang web yang berasal dari Sulawesi Utara, Indonesia, dengan latar belakang pendidikan terakhir di SMA. Meskipun saya tidak menempuh pendidikan tinggi formal di bidang teknologi, saya berhasil membuktikan bahwa pembelajaran otodidak yang konsisten dan pengalaman nyata di lapangan bisa membawa saya menjadi seorang profesional yang kompeten di dunia teknologi, khususnya dalam pengembangan web dan blockchain. <br>
               Saya telah memiliki pengalaman lebih dari 4 tahun dalam mengembangkan berbagai jenis aplikasi web, mulai dari sistem internal perusahaan hingga solusi berbasis Web3 yang memanfaatkan teknologi blockchain. Dalam perjalanan karier saya, saya terbiasa bekerja dengan teknologi-teknologi modern, baik untuk pengembangan front-end maupun back-end, dan selalu mengikuti perkembangan terbaru dalam dunia pengembangan perangkat lunak.
               <br>
