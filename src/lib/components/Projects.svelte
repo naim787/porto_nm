@@ -9,7 +9,7 @@
         deskripsi : "app yang dibuat untuk menyelesaikan masalah yang ada di restorant, untuk management & kariyawan",
         stack : [
             {
-                src : "https://miro.medium.com/v2/resize:fit:720/format:webp/1*5gMIBFvpNJivfyqv1ApwzA.png",
+                src : "https://raw.githubusercontent.com/naim787/zkfs/refs/heads/main/src/lib/assets/favicon.webp",
                 lebar : "w-20",
             }
         ]
