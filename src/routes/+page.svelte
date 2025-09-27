@@ -32,7 +32,7 @@
         <div class="w-full h-auto bg-white relative p-2">
           <!-- <h1 class="text-3xl">ABOUT</h1> -->
           <div class="">
-            <p class="px-4">
+            <p class="px-10">
               Nama saya Chairun Naim Abdullah, seorang pengembang web yang berasal dari Sulawesi Utara, Indonesia, dengan latar belakang pendidikan terakhir di SMA. Meskipun saya tidak menempuh pendidikan tinggi formal di bidang teknologi, saya berhasil membuktikan bahwa pembelajaran otodidak yang konsisten dan pengalaman nyata di lapangan bisa membawa saya menjadi seorang profesional yang kompeten di dunia teknologi, khususnya dalam pengembangan web dan blockchain. <br>
               Saya telah memiliki pengalaman lebih dari 4 tahun dalam mengembangkan berbagai jenis aplikasi web, mulai dari sistem internal perusahaan hingga solusi berbasis Web3 yang memanfaatkan teknologi blockchain. Dalam perjalanan karier saya, saya terbiasa bekerja dengan teknologi-teknologi modern, baik untuk pengembangan front-end maupun back-end, dan selalu mengikuti perkembangan terbaru dalam dunia pengembangan perangkat lunak.
               <br>
