@@ -10,16 +10,17 @@
 <div class="w-[100vw] h-auto flex flex-col justify-center items-center overflow-x-hidden pt-15 bg-linear-to-r from-green-100 to-white">
 
     <!-- main -->
-    <div class="w-[100vw] h-[100vh] flex justify-evenly items-center flex-col lg:flex-row">
+    <div class="w-[100vw] h-auto flex justify-evenly items-center flex-col lg:flex-row">
         <div class="w-auto h-auto bg-green-50 flex-col 
         p-4">
            <div class="mcpe-font text-green-700 font-vold text-[2vh]">2025</div>
            <div class="mcpe-font text-[5.5vh] font-bold">NAIM ABDULLAH</div>
-           <div class="flex w-full gap-2 font-bold">
+           <div class="flex w-full gap-2 font-bold mb-2">
                <p class="p-2 bg-green-500/50 text-green-900 rounded-xl">NODEJS</p>
                <p class="p-2 bg-blue-500/50 text-blue-900 rounded-md">GO</p>
                <p class="p-2 bg-gray-300 rounded-md">BUN</p>
-        </div>
+           </div>
+           <img src="https://camo.githubusercontent.com/950ed67401df4ff77ebda349ee5eed01855b24eafdff6ab35dbd94bd5af92725/68747470733a2f2f6e69727a616b2d73747265616b2d73746174732e76657263656c2e6170702f3f757365723d6e61696d373837267468656d653d6461726b26686964655f626f726465723d66616c7365" alt="" class="w-full">
         </div>
         <img src="./nm-no-bg.webp" alt="" class="w-100 bg-gray-700 rounded-2xl shadow-2xl shadow-green-200">
     </div>
