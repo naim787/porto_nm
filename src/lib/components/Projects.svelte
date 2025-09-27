@@ -1,15 +1,14 @@
   <script>
-  import { Card } from "flowbite-svelte";
+   import { Card, Button } from "flowbite-svelte";
+   import { ArrowRightOutline } from "flowbite-svelte-icons";
 
   let dataProjects = [
     {
-        src_parent : "",
-        tiggiImg : "h-100",
-        judul : "Restorant Nm V2",
-        deskripsi : "app yang dibuat untuk menyelesaikan masalah yang ada di restorant, untuk management & kariyawan",
+        src : "https://raw.githubusercontent.com/naim787/zkfs/refs/heads/main/src/lib/assets/favicon.webp",
+        cap : "ZKFS adalah sebuah app encripsi pasword dan data sensitif",
         stack : [
             {
-                src : "https://raw.githubusercontent.com/naim787/zkfs/refs/heads/main/src/lib/assets/favicon.webp",
+                src : "",
                 lebar : "w-20",
             }
         ]
@@ -19,16 +18,13 @@
   
   <div class="w-full h-auto flex justify-evenly mt-20 flex-wrap">
     {#each dataProjects as data}
-        <Card img={data.src_parent} class={`${data.tiggiImg} my-2 bg-white`}>
-        <div class="m-6">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{data.judul}</h5>
-            <p class="mb-3 leading-tightz text-gray-700 dark:text-gray-400">{data.deskripsi}</p>
-            <div class="w-full h-20 flex justify-start items-start gap-2">
-                {#each data.stack as dc}
-                   <img src={dc.src} alt="fiber" class={`${dc.lebar}`}>
-                {/each}
+    <div class="space-y-4 relative">
+        <Card img={data.src}>
+            <div class="m-6">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{data.cap}</h5>
             </div>
-        </div>
-        </Card> 
+        </Card>
+        <h1 class="absolute top-[55%] left-[40%] bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-5xl font-extrabold text-transparent">ZKFS</h1>
+    </div>
     {/each}
   </div> 
