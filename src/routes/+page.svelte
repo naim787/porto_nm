@@ -21,7 +21,7 @@
                <p class="p-2 bg-gray-300 rounded-md">BUN</p>
         </div>
         </div>
-        <img src="./nm-no-bg.webp" alt="" class="w-100 bg-gray-700 rounded-2xl">
+        <img src="./nm-no-bg.webp" alt="" class="w-100 bg-gray-700 rounded-2xl shadow-2xl shadow-blue-200">
     </div>
     <div class="w-full px-4" id="tentag">
       <h1 class="text-6xl mcpe-font">TENTAG SAYA</h1>
