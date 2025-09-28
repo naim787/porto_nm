@@ -61,6 +61,7 @@
    <div class="w-full px-4 mt-20" id="kontak">
       <h1 class="text-6xl mcpe-font">Layanan</h1>
   </div>
+  
   <Service />
 
   <div class="w-full px-4 mt-20" id="kontak">
