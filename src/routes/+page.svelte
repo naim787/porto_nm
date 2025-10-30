@@ -1,6 +1,7 @@
 <script>
   import Contacts from "$lib/components/Contacts.svelte";
   import Footer from "$lib/components/Fot.svelte";
+  import Nav from "$lib/components/Nav.svelte";
   import Projects from "$lib/components/Projects.svelte";
   import Service from "$lib/components/Service.svelte";
   import Skill from "$lib/components/Skill.svelte";
@@ -8,6 +9,8 @@
 </script>
 
 
+
+<Nav />
 <div class="w-[100vw] h-auto flex flex-col justify-center items-center overflow-x-hidden pt-15 bg-linear-to-r from-green-100 to-white md:px-20">
 
     <!-- main -->
