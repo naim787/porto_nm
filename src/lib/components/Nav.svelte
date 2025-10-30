@@ -3,10 +3,10 @@
   import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from "flowbite-svelte";
 </script>
 
-<Navbar class="fixed top-0 left-0 bg-white">
+<Navbar class="fixed top-0 left-0 bg-gray-200 z-50">
   <NavBrand href="/">
-    <img src="../assets/favicon.webp" class="me-3 h-6 sm:h-9" alt="Flowbite Logo" />
-    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+    <img src="./favicon.webp" class="h-9 sm:h-9" alt="logo naim" />
+    <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">AIM</span> -->
   </NavBrand>
   <NavHamburger />
   <NavUl >
