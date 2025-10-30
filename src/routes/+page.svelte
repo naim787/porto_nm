@@ -15,7 +15,7 @@
 
     <!-- main -->
     <div class="w-[100vw] h-auto flex justify-evenly items-center flex-col lg:flex-row">
-        <div class="w-auto h-auto bg-green-50 flex-col 
+        <div class="w-auto h-auto flex-col 
         p-4">
            <div class="mcpe-font text-green-700 font-vold text-[2vh]">2025</div>
            <div class="mcpe-font text-[5.5vh] font-bold">NAIM ABDULLAH</div>
