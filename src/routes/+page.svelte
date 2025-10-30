@@ -18,7 +18,7 @@
         <div class="w-auto h-auto flex-col 
         p-4">
            <div class="mcpe-font text-green-700 font-vold text-[2vh]">2025</div>
-           <div class="mcpe-font text-[5.5vh] font-bold">NAIM ABDULLAH</div>
+           <div class="mcpe-font text-[9vh] font-bold momo-trust-display-regular">NAIM ABDULLAH</div>
            <div class="flex w-full gap-2 font-bold mb-2">
                <p class="p-2 bg-green-500/50 text-green-900 rounded-xl">NODEJS</p>
                <p class="p-2 bg-blue-500/50 text-blue-900 rounded-md">GO</p>
